@@ -1,0 +1,34 @@
+#tv {
+    position: relative;
+    background: white;
+    color: white;
+    transition: all .4s ease;
+    border-radius: 20%;
+  }
+  #tv:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px 5px #d94a7a38;
+  }
+
+
+  #tv1{
+    position: relative;
+    background: white;
+    color: white;
+    transition: all .4s ease;
+    border-radius: 5%;
+  }
+  #tv1:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px 5px #18208f38;
+  }
+
+
+
+  svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  

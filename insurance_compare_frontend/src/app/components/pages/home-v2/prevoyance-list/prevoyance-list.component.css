@@ -1,0 +1,168 @@
+.card{
+    width: -webkit-fill-available;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.image{
+  max-width: 100px;
+}
+
+.price{
+    font-size: x-large;
+    font-family: sans-serif;
+    color: #D959AC;
+    position: absolute;
+    right: 6%;
+    top: 60%;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .small-image {
+        max-width: 100px;
+        min-height: 60px;
+
+    }
+  }
+  @media only screen and (min-width: 1000px) {
+    .large-image {
+      max-width: 176px;
+      margin-left: -72%;
+      max-height: 146px;  
+    }
+  }
+
+
+
+@media only screen and (max-width: 1300px) {
+    .small-screen {
+        width: -webkit-fill-available;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 50px;
+        border-radius: 12px;
+    }
+  }
+  @media only screen and (min-width: 1300px) {
+    .large-screen {
+        width: -webkit-fill-available;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 50px;
+        border-radius: 12px;
+    }
+  }
+
+
+  @media only screen and (max-width: 1000px) {
+    .small-rating {
+     display: none;
+    }
+  }
+  @media only screen and (min-width: 1000px) {
+    .large-rating {
+        margin-left:20%;    }
+  }
+
+  .label{
+    position: absolute;
+    left: -64%;
+    top: 8%;
+    font-family: monospace;
+    color: #0d2d50;
+    font-size: x-large;
+      }
+  .label1{
+    position: absolute;
+    font-family: monospace;
+    color: #0d2d50;
+    left: -64%;
+    top: 31%;
+     font-size: x-large;
+     ;  }
+  .label2{
+    position: absolute;
+    left: -64%;
+    font-family: monospace;
+    color: #0d2d50;
+    top: 91px;
+    font-size: x-large;
+    }
+
+  .label3{
+    position: absolute;
+    left: -64%;
+    top: 82%;
+     font-size: x-large;
+     font-family: monospace;
+    color: #0d2d50;
+   }
+
+.path{
+    font-size: large;
+    font-family: inherit;
+    color: #2E338C;
+    margin-top: 15px;
+    position: absolute;
+    right: 4%;
+    top: 71%;
+}
+@media only screen and (max-width: 800px) {
+    .small-path {
+        font-size: large;
+        font-family: inherit;
+        margin-top: 15px;
+    }
+  }
+  @media only screen and (min-width: 800px) {
+    .large-path {
+        font-size: large;
+        font-family: inherit;
+        margin-top: 15px;
+        position: absolute;
+        right: 4%;
+        top: 41%;   }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .small-price {
+        font-size: x-large;
+        font-family: monospace;
+        color: #0d2d50;
+    }
+  }
+  @media only screen and (min-width: 800px) {
+    .large-price {
+        font-size: x-large;
+        font-family: monospace;
+        color: #0d2d50;
+        position: absolute;
+        right: 6%;
+        top: 33%; 
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .small-position {
+      margin-top:120px;
+      margin-bottom: 15%;
+  } 
+  }
+  @media only screen and (min-width: 500px) {
+    .large-position {
+      margin-top:50px;
+      margin-bottom: 15%;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .small-image1 {
+       max-width: 373px;
+       margin-top: 20px;
+  } 
+ }
+  @media only screen and (min-width: 700px) {
+    .large-image1 {
+     max-width: 500px;
+    }
+  }
+

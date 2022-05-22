@@ -1,0 +1,14 @@
+var express = require('express');
+var router = express.Router();
+const offresController = require('../controller/offresController');
+router.post('/offres/getSante', offresController.getOffresSante);
+router.post('/offres/getProtectionJuridique', offresController.getOffresProtectionJuridique);
+router.post('/offres/getPrevoyance', offresController.getOffresPrevoyance);
+router.post('/offres/getMoto', offresController.getMoto);
+router.post('/offres/getAnimmal', offresController.getOffresAnimmal);
+router.post('/offres/getEMPRUNTEUR', offresController.getEMPRUNTEUR);
+router.post('/offres/getRachat', offresController.getRachat);
+router.post('/offres/getDefiscalisation', offresController.getDefiscalisation);
+router.post('/offres/getEnergie', offresController.getEnergie);
+router.post('/offres/getAUTO', offresController.getAUTO);
+module.exports = router;

@@ -1,0 +1,73 @@
+<app-header-two></app-header-two>
+<section class="banner-section banner-section-two">
+    <ngx-slick-carousel #slickModal="slick-carousel" [config]="settings" class="banner-slider" id="bannerSlider">
+        <div ngxSlickItem class="single-banner" [style.background-image]="'url('+item.img+')'"
+            *ngFor="let item of banner">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="banner-content text-center">
+                            <span  style="font-size:1.8em!important;"  [innerHtml]="item.title"></span>
+                            <p data-animation="fadeInUp" data-delay="1s" [innerHtml]="item.text"></p>
+
+                            <ul class="btn-wrap">
+                                <li data-animation="fadeInRight" data-delay="1.4s">
+                                    <a (click)="goToServices()" class="main-btn main-btn-2">Nos services</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ngx-slick-carousel>
+</section>
+
+<app-service></app-service>
+<app-process></app-process>
+<section class="client-section">
+    <div class="container">
+        <div class="client-slider section-gap">
+            <app-brands></app-brands>
+        </div>
+    </div>
+</section>
+<section class="about-section about-illustration-img section-gap">
+    <div class="container">
+        <div class="illustration-img">
+            <img src="assets/img/illustration/25.jpg" alt="img">
+        </div>
+        <div class="row no-gutters justify-content-lg-end justify-content-center">
+            <div class="col-lg-6 col-md-10">
+                <div class="about-text">
+                    <div class="section-title left-border mb-40">
+                        <span class="title-tag">Comparez</span>
+                        <h2 class="title">Comparez les assurances <br>et choisissez la meilleure offre</h2>
+                    </div>
+                    <h4 class="mb-25">
+                        Notre rôle consiste à comparer entre les différents contrats d’assurance
+                        disponibles sur le marché et de sélectionner ceux qui seront les plus adaptés à
+                        votre besoin. Ce service s’adresse aux particuliers et comprend tous les types
+                        d’assurances (automobile, logement, santé, animaux, gaz et électricité,
+                        prévoyance, protection juridique, ...). Grâce à notre réseau de partenaires
+                        composé de plus d’une dizaine d’assureurs, nous sommes en mesure de vous
+                    </h4>
+                    <h4>
+                        proposer, en seulement quelques minutes, les offres qui se rapprochent le plus
+                        de votre besoin.
+                        Une fois que vous avez choisi votre contrat, nous vous mettons en relation
+                        directe avec l’assureur qui vous accompagnera durant la finalisation de votre
+                        souscription.
+                        Nos principaux objectifs sont de vous trouver l’offre la plus pertinente et de vous
+                        faire économiser de l’argent. Vous n’aurez à payer ni commissions ni frais
+                        dissimulés, uniquement le prix affiché sur le devis.
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<app-testimonials></app-testimonials>
+
+<app-footer [layout]="classname" [logo]="ftlogo" [shape]="ftshape" [shape2]="ftshape2" [shapeclass]="ftshapeclass"
+    [shape2class]="ftshape2class"></app-footer>

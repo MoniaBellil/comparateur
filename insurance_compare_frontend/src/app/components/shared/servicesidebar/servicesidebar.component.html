@@ -1,0 +1,25 @@
+<div class="sidebar">
+    <!-- Services List Widget -->
+    <div class="widget cat-widget">
+        <h4 class="widget-title">All Service List</h4>
+        <ul>
+            <li *ngFor="let item of service">
+                <a routerLink="/service-details/{{item.id}}">{{item.title}} <span><i class="far fa-angle-right"></i></span></a>
+            </li>
+        </ul>
+    </div>
+    <!-- Contact Widget -->
+    <div class="widget contact-widget">
+        <h4 class="widget-title">Conatct Us</h4>
+        <form>
+            <input type="text" placeholder="Your Email">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit" class="main-btn main-btn-3">Send Message</button>
+        </form>
+    </div>
+    <!-- CTA Widget -->
+    <div class="widget cta-widget" style="background-image: url(assets/img/sidebar/cta.jpg);">
+        <h4 class="title">Need Any Consultations</h4>
+        <a routerLink="/contact" class="main-btn">Send Message</a>
+    </div>
+</div>

@@ -1,0 +1,113 @@
+<app-fixed-header></app-fixed-header>
+<section style="margin-bottom: 120px;" class="contact-section contact-page section-gap-top">
+    <div class="container">
+        <div class="contact-info">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 order-2 order-lg-1">
+                    <div class="illustration-img text-center">
+                        <img src="assets/img/illustration/man-with-earth-02.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-10 order-1 order-lg-2">
+                    <div class="contact-info-content">
+                        <div class="section-title left-border mb-40">
+                            <span class="title-tag">Entrer en contact</span>
+                            <h2 class="title">Besoin d'aide pour toute assurance?</h2>
+                        </div>
+                        <p>
+                            si vous avez une question ou une remarque n'hésitez pas à nous contacter via le formulaire ci dessus
+                        </p>
+                        <ul>
+                            <li class="phone">    <img style="     max-width: 59px; margin-right: 10px;
+                                " src="assets/img/illustration/Phone.gif" /> 
+                                <a  style="margin-left: 20px
+                                ;" href="tel:+0123456789">+012 (345) 6789 </a>
+                            </li>
+                            <li><i class="far fa-envelope-open"></i><a href="#">info@Va-Chercher.com</a></li>
+                            <li><i class="far fa-map-marker-alt"></i>France</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-form grey-bg">
+            <div class="row no-gutters justify-content-center">
+                <div class="col-10">
+                    <div class="section-title text-center mb-40">
+                        <h2 class="title">N'hésitez pas à nous contacter</h2>
+                    </div>
+                    <form   [formGroup]="firstFormGroup" (submit)="sendEmail()">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="input-group mb-30">
+                                    <input   formControlName="firstname" class="form__input" type="text" placeholder="Nom complet" name="from_name" required>
+                                    <span class="icon"><i style="font-size: 32px" class="far fa-user-circle"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="input-group mb-30">
+                                    <input class="form__input" type="email"  formControlName="email" placeholder="Votre adresse e-mail" name="to_email" required>
+                                    <span class="icon"><i style="font-size: 32px;" class="far fa-envelope-open"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="input-group mb-30">
+                                    <input class="form__input" formControlName="phonenumber" type="text" placeholder="Ton téléphone" name="to_phone" required>
+                                    <span  class="icon"><i  style="font-size: 32px;" class="far fa-phone"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="input-group mb-30">
+                                <input [min]="minDate"  placeholder="Date" formControlName = "date" class="form__input"  [matDatepicker]="picker1"
+                                />
+                              <mat-datepicker-toggle style="position: absolute;
+                              right: 4%;
+                              top: 15%;
+                              color:#CB218E;
+                              zoom: 1.25;
+                            " matSuffix [for]="picker1"></mat-datepicker-toggle>
+                              <mat-datepicker #picker1></mat-datepicker>
+                                   </div>
+                            </div>
+                            <div  style="margin-bottom: 15px;" class="col-6">
+                           
+                            </div>
+                              <div  style="margin-bottom: 15px; margin-left: 0px;" class="col-4">
+                                <div class="u-form-group u-form-select u-form-group-2">
+                                    <label  for="select-4191" class="u-label u-label-2" >Choisir un temp d'appel</label>
+                                    <br>
+                                    <mat-radio-group formControlName = "time"  aria-label="Select an option">
+                                        <mat-radio-button value="10-12">10-12</mat-radio-button>
+                                        <br>
+                                        <mat-radio-button value="14-18">14-18</mat-radio-button>
+                                      </mat-radio-group>
+                                  </div>
+                            </div>
+                            <div  class="col-12">
+                                <div class="input-group textarea mb-30">
+                                    <textarea formControlName="text"  class="form__input" placeholder="écrire un message" name="message_html"></textarea>
+                                    <span class="icon"><i style="font-size: 32px;margin-top: 32px;"  class="far fa-pencil"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button   [disabled]="firstFormGroup.invalid" type="submit" class="main-btn">Envoyer</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>    
+
+        </div>
+    </div>
+</section>
+
+<section class="client-section">
+    <div class="container">
+        <div class="client-slider section-gap line-top">
+            <app-brands></app-brands>
+        </div>
+    </div>
+</section>
+<app-footer [layout]="" ></app-footer>

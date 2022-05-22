@@ -1,0 +1,33 @@
+
+  <app-fixed-header></app-fixed-header>
+  <div  style="text-align: center;" class="small-position large-position">
+    <div class="illustration-img text-center">
+      <img  class="small-image1 large-image1" src="assets/img/illustration/moto2.png" alt="img">
+  </div>
+  <div *ngFor="let data of data "  >
+    <mat-card *ngIf="data.name"  If class="small-screen large-screen" >
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>{{data.name}}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content (click)='saveOffer(data)' >
+        <img style="margin-top: 20px;
+        margin-bottom: 20px;" class="small-image large-image" mat-card-image [src]="data.image" alt="Photo of {{data.image}}" />
+        <div  style="flex-direction: row;">
+          <strong class="small-price large-price">{{data.prix}} /mois </strong>
+          <button  (click)="generatePdf(data)"  class="main-btn main-btn-4 small-path large-path">Reserver</button>
+          </div>
+      </mat-card-content>
+    </mat-card>
+  </div></div>
+  <br>
+
+
+
+
+
+
+
+
+
+  <app-footer [layout]="" ></app-footer>

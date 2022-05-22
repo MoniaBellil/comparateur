@@ -1,0 +1,408 @@
+
+    <div id="preloader" *ngIf="isLoading">
+        <img style="    max-width: 310px;
+        max-height: 320px;
+        margin-top: 150px;" src="assets/img/illustration/wait.gif" /> 
+      <p style="position: absolute;
+      top: 60%;
+      font-family: 'Source Sans Pro';
+      font-size: revert;
+      font-weight: bold;"> Veuillez patienter, nous recherchons les meilleures offres pour Vous </p>   
+  </div> 
+  <app-fixed-header *ngIf="!isLoading"  ></app-fixed-header>  
+  <div *ngIf="!isLoading"  style="
+  text-align: center; margin-top: 50px; margin-bottom: 15%;" >
+<div class="illustration-img text-center">
+  <img  class="small-image1 large-image1" src="assets/img/illustration/energie.png" alt="img">
+</div> 
+
+<div style="height: 150px; overflow: hidden;">
+<svg viewBox="0 0 500 200" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+  <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" style="stroke: none;fill: #cb218d27;"></path>
+</svg>
+</div>
+  <mat-vertical-stepper *ngIf="!isLoading" class="stepper" [linear]="isLinear" #stepper>
+    <mat-step   [stepControl]="firstFormGroup">
+      <form class="left" [formGroup]="firstFormGroup">
+        <ng-template matStepLabel>Informations generales</ng-template>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>Fournisseur d'energie</mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="fournissuer" placeholder="fournissuer">
+            <mat-option *ngFor="let fournissuer of fournissuer" [value]="fournissuer">
+              {{fournissuer.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            Entrez votre fournisseur !
+         </mat-error>
+        </mat-form-field>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>Quel est votre besoin en énergie ?</mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="besoin" placeholder="Besoin">
+            <mat-option *ngFor="let besoin of besoin" [value]="besoin">
+              {{besoin.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            Entrez votre Besoin!
+         </mat-error>
+        </mat-form-field>
+        <br>
+        <br>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>Vous souhaitez comparer les tarifs pour :</mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="logement" placeholder="Logement">
+            <mat-option *ngFor="let logement of logement" [value]="logement">
+              {{logement.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            Entrez votre logement!
+         </mat-error>
+        </mat-form-field>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>code postal</mat-label>
+          <input type="number" matInput placeholder="Code Postal" formControlName="postalCode" required>
+          <mat-error>
+            Entrez votre code postal !
+          </mat-error>
+        </mat-form-field>
+        <br>
+        <br>
+        <div class="u-form-group u-form-select u-form-group-2">
+          <label for="select-4191" class="u-label u-label-2">Connaissez-vous la consommation annuelle de votre logement ? </label>
+          <br>
+          <mat-radio-group formControlName="consommation" aria-label="Select an option">
+              <mat-radio-button  (click)='yesIknow()' value="true">Oui, je la connais</mat-radio-button>
+              <br>
+              <mat-radio-button  (click)='yesIknow()'  value="false">Non, faisons une estimation</mat-radio-button>
+          </mat-radio-group>
+      </div>
+      <br>
+      <br>
+        <mat-form-field  *ngIf= "this.firstFormGroup.value.consommation == 'true'" appearance="outline" style="margin-right: 10px;">
+          <mat-label style="font-size: 15px!important;">Quelle option de tarification avez-vous choisie ? </mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="tarif" placeholder="Tarfication">
+            <mat-option *ngFor="let tarif of tarif" [value]="tarif">
+              {{tarif.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            Choisir option de Tarfication!
+         </mat-error>
+        </mat-form-field>
+    <br>
+        <ul class="btn-wrap">       
+          <li   data-animation="fadeInLeft" data-delay="1.2s">
+              <button   (click)='knowNext()' [disabled]="firstFormGroup.invalid" matStepperNext  class="main-btn main-btn-4">Suivant</button>
+          </li>
+          <br>
+      </ul>
+      </form>
+    </mat-step>
+    <mat-step  *ngIf ="this.show == true"[stepControl]="secondFormGroup">
+      <ng-template matStepLabel>Informations de consommation Électrique</ng-template>
+      <form  class="left" [formGroup]="secondFormGroup">
+        <mat-form-field  *ngIf= "this.firstFormGroup.value.consommation == 'true'" appearance="outline" style="margin-right: 10px;">
+          <mat-label style="font-size: 15px!important;">la puissance de votre compteur d’électricité ?  </mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="puissance" placeholder="Puissance">
+            <mat-option *ngFor="let puissance of puissance" [value]="puissance">
+              {{puissance.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+          la puissance de cotre compteur!
+         </mat-error>
+        </mat-form-field>
+        <mat-form-field  *ngIf= "this.firstFormGroup.value.consommation == 'true'" appearance="outline" style="margin-right: 10px;">
+          <mat-label style="font-size: 15px!important;" >consommation électrique en kWh</mat-label>
+          <input type="number" matInput placeholder="consommation électrique en kWh" formControlName="electConsommation" >
+          <mat-error>
+            votre consommation électrique annuelle ?
+          </mat-error>
+        </mat-form-field>
+
+      <div  *ngIf= "this.firstFormGroup.value.consommation == 'true'" class="u-form-group u-form-select u-form-group-2">
+          <label for="select-4191" class="u-label u-label-2">Connaissez-vous le numéro de votre Point De Livraison (PDL) ? </label>
+          <p>N° à 14 chiffres se trouvant sur votre facture d'électricité</p>
+          <br>
+          <mat-radio-group formControlName="livraison" aria-label="Select an option">
+              <mat-radio-button (click)='knowLivraison()' value="true">Oui</mat-radio-button>
+              <mat-radio-button (click)='knowLivraison()' style="margin-left: 20px;" value="false">Non</mat-radio-button>
+          </mat-radio-group>
+      </div>
+      <mat-form-field  *ngIf= "this.secondFormGroup.value.livraison == 'true'" appearance="outline" style="margin-right: 10px;">
+        <mat-label style="font-size: 15px!important;">numéro de Point de Livraison (PDL) ?</mat-label>
+        <input type="number" matInput placeholder="Point de Livraison" formControlName="pdl">
+        <mat-error>
+          Entrez votre PDL !
+        </mat-error>
+      </mat-form-field>
+        <br>
+        <mat-form-field  *ngIf= "this.firstFormGroup.value.consommation == 'false'" appearance="outline" style="margin-right: 10px;">
+          <mat-label style="font-size: 15px!important;">Quel est votre type de logement ?</mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="logementType" placeholder="type de logement ">
+            <mat-option *ngFor="let logementType of logementType" [value]="logementType">
+              {{logementType.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+          Type de votre logement!
+         </mat-error>
+        </mat-form-field>
+        <mat-form-field  *ngIf= "this.firstFormGroup.value.consommation == 'false'" appearance="outline" style="margin-right: 10px;">
+          <mat-label style="font-size: 15px!important;" >Surface de votre logement en m²? </mat-label>
+          <input type="number" matInput placeholder="Surface en m²" formControlName="surface" >
+          <mat-error>
+            votre consommation électrique annuelle ?
+          </mat-error>
+        </mat-form-field>
+        <br>
+        <br>
+        <mat-form-field  *ngIf= "this.firstFormGroup.value.consommation == 'false'" appearance="outline" style="margin-right: 10px;">
+          <mat-label style="font-size: 15px!important;">Combien de personnes habitent dans votre logement ?</mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="personne" placeholder="Personnes">
+            <mat-option *ngFor="let personne of personne" [value]="personne">
+              {{personne.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            Combien de personnes!
+         </mat-error>
+        </mat-form-field>
+
+        <mat-form-field  *ngIf= "this.firstFormGroup.value.consommation == 'false'" appearance="outline" style="margin-right: 10px;">
+          <mat-label style="font-size: 15px!important;"> mode de chauffage utilisez-vous?
+          </mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="chauffage" placeholder="Chauffage">
+            <mat-option *ngFor="let chauffage of chauffage" [value]="chauffage">
+              {{chauffage.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            mode de chauffage!
+         </mat-error>
+        </mat-form-field>
+        <br>
+        <br>
+        <mat-form-field  *ngIf= "this.firstFormGroup.value.consommation == 'false'" appearance="outline" style="margin-right: 10px;">
+          <mat-label style="font-size: 15px!important;">Comment votre eau est-elle chauffée ?</mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="eau" placeholder="Chauffage de L'eau">
+            <mat-option *ngFor="let chauffage of chauffage" [value]="chauffage">
+              {{chauffage.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            type Chauffage de L'eau!
+         </mat-error>
+        </mat-form-field>
+
+        <mat-form-field  *ngIf= "this.firstFormGroup.value.consommation == 'false'" appearance="outline" style="margin-right: 10px;">
+          <mat-label style="font-size: 15px!important;">Quel type d'énergie utilisez-vous pour votre cuisine ?
+          </mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="cuisine" placeholder="Energie cuisine">
+            <mat-option *ngFor="let chauffage of chauffage" [value]="chauffage">
+              {{chauffage.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            type Energie cuisine !
+         </mat-error>
+        </mat-form-field>
+        <br>     
+
+        <ul class="btn-wrap">       
+          <li   data-animation="fadeInLeft" data-delay="1.2s">
+              <button   [disabled]="secondFormGroup.invalid" matStepperNext  class="main-btn main-btn-4">Suivant</button>
+          </li>
+          <br>
+          <li   data-animation="fadeInRight" data-delay="1.4s">
+            <button  matStepperPrevious class="main-btn main-btn-2">Retour</button>
+        </li>
+      </ul>
+      </form>
+    </mat-step>
+    <mat-step  *ngIf ="this.show2 == true" [stepControl]="questionFormGroup">
+      <ng-template matStepLabel> estimation en 6 questions</ng-template>
+      <form  class="left" [formGroup]="questionFormGroup">
+        <br>
+        <mat-form-field  *ngIf= "this.firstFormGroup.value.consommation == 'false'" appearance="outline" style="margin-right: 10px;">
+          <mat-label style="font-size: 15px!important;">Quel est votre type de logement ?</mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="logementType" placeholder="type de logement ">
+            <mat-option *ngFor="let logementType of logementType" [value]="logementType">
+              {{logementType.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+          Type de votre logement!
+         </mat-error>
+        </mat-form-field>
+        <mat-form-field  *ngIf= "this.firstFormGroup.value.consommation == 'false'" appearance="outline" style="margin-right: 10px;">
+          <mat-label style="font-size: 15px!important;" >Surface de votre logement en m²? </mat-label>
+          <input type="number" matInput placeholder="Surface en m²" formControlName="surface" >
+          <mat-error>
+            votre consommation électrique annuelle ?
+          </mat-error>
+        </mat-form-field>
+        <br>
+        <br>
+        <mat-form-field  *ngIf= "this.firstFormGroup.value.consommation == 'false'" appearance="outline" style="margin-right: 10px;">
+          <mat-label style="font-size: 15px!important;">Combien de personnes habitent dans votre logement ?</mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="personne" placeholder="Personnes">
+            <mat-option *ngFor="let personne of personne" [value]="personne">
+              {{personne.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            Combien de personnes!
+         </mat-error>
+        </mat-form-field>
+
+        <mat-form-field  *ngIf= "this.firstFormGroup.value.consommation == 'false'" appearance="outline" style="margin-right: 10px;">
+          <mat-label style="font-size: 15px!important;"> mode de chauffage utilisez-vous?
+          </mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="chauffage" placeholder="Chauffage">
+            <mat-option *ngFor="let chauffage of chauffage" [value]="chauffage">
+              {{chauffage.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            mode de chauffage!
+         </mat-error>
+        </mat-form-field>
+        <br>
+        <br>
+        <mat-form-field  *ngIf= "this.firstFormGroup.value.consommation == 'false'" appearance="outline" style="margin-right: 10px;">
+          <mat-label style="font-size: 15px!important;">Comment votre eau est-elle chauffée ?</mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="eau" placeholder="Chauffage de L'eau">
+            <mat-option *ngFor="let chauffage of chauffage" [value]="chauffage">
+              {{chauffage.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            type Chauffage de L'eau!
+         </mat-error>
+        </mat-form-field>
+
+        <mat-form-field  *ngIf= "this.firstFormGroup.value.consommation == 'false'" appearance="outline" style="margin-right: 10px;">
+          <mat-label style="font-size: 15px!important;">Quel type d'énergie utilisez-vous pour votre cuisine ?
+          </mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="cuisine" placeholder="Energie cuisine">
+            <mat-option *ngFor="let chauffage of chauffage" [value]="chauffage">
+              {{chauffage.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            type Energie cuisine !
+         </mat-error>
+        </mat-form-field>
+        <br>     
+
+        <ul class="btn-wrap">       
+          <li   data-animation="fadeInLeft" data-delay="1.2s">
+              <button   [disabled]="questionFormGroup.invalid" matStepperNext  class="main-btn main-btn-4">Suivant</button>
+          </li>
+          <br>
+          <li   data-animation="fadeInRight" data-delay="1.4s">
+            <button  matStepperPrevious class="main-btn main-btn-2">Retour</button>
+        </li>
+      </ul>
+      </form>
+    </mat-step>
+
+<mat-step  *ngIf ="this.show1 == true" [stepControl]="therdFormGroup">
+  <ng-template matStepLabel>Informations de consommation de GAZ</ng-template>
+      <form  class="left" [formGroup]="therdFormGroup">
+        <mat-form-field  *ngIf= "this.firstFormGroup.value.consommation == 'true'" appearance="outline" style="margin-right: 10px;">
+          <mat-label style="font-size: 15px!important;" >votre consommation de gaz annuelle ?</mat-label>
+          <input type="number" matInput placeholder="consommation de GAZ en kWh" formControlName="ConsommationGaz" >
+          <mat-error>
+            votre consommation de GAZ annuelle ?
+          </mat-error>
+        </mat-form-field>
+
+
+      <div   *ngIf= "this.firstFormGroup.value.consommation == 'true'" class="u-form-group u-form-select u-form-group-2">
+          <label for="select-4191" class="u-label u-label-2">Connaissez-vous le numéro de votre Point de Comptage et d'Estimation (PCE)</label>
+          <p>N° à 14 chiffres se trouvant sur votre facture de gaz</p>
+          <br>
+          <mat-radio-group formControlName="livraisonGaz" aria-label="Select an option">
+              <mat-radio-button (click)='knowLivraisonGaz()' value="true">Oui</mat-radio-button>
+              <mat-radio-button (click)='knowLivraisonGaz()' style="margin-left: 20px;" value="false">Non</mat-radio-button>
+          </mat-radio-group>
+      </div>
+      <mat-form-field  *ngIf= "this.therdFormGroup.value.livraisonGaz == 'true'" appearance="outline" style="margin-right: 10px;">
+        <mat-label style="font-size: 15px!important;">numéro de Comptage et d'Estimation  (PCE) ?</mat-label>
+        <input type="number" matInput placeholder="Point de Livraison" formControlName="pce">
+        <mat-error>
+          Entrez votre PCE!
+        </mat-error>
+      </mat-form-field>
+
+        <br>
+        <ul class="btn-wrap">       
+          <li   data-animation="fadeInLeft" data-delay="1.2s">
+              <button   [disabled]="therdFormGroup.invalid" matStepperNext  class="main-btn main-btn-4">Suivant</button>
+          </li>
+          <br>
+          <li   data-animation="fadeInRight" data-delay="1.4s">
+            <button  matStepperPrevious class="main-btn main-btn-2">Retour</button>
+        </li>
+      </ul>
+      </form>
+          </mat-step>
+
+
+    
+
+
+    <mat-step [stepControl]="lastFormGroup">
+      <form class="left" [formGroup]="lastFormGroup">
+        <ng-template matStepLabel>Informations personnelles</ng-template>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>Nom</mat-label>
+          <input type="text" matInput placeholder="votre nom" formControlName="firstname" required>
+          <mat-error>
+            entrez votre nom
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>Prénom</mat-label>
+          <input type="text" matInput placeholder="votre prénom" formControlName="lastname" required>
+          <mat-error>
+            Entrez votre prénom
+          </mat-error>
+        </mat-form-field>
+        <br>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>adresse email</mat-label>
+          <input type="text" matInput placeholder="adresse email" formControlName="email" required>
+          <mat-error>
+            Entrez votre adresse email
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>Téléphone</mat-label>
+          <input type="text" matInput placeholder="numéro de téléphone" formControlName="phonenumber" required>
+          <mat-error>
+            entrez votre numéro de téléphone 
+          </mat-error>
+        </mat-form-field>
+        <br>
+        <mat-checkbox style="margin-top: 1%;" formControlName="callMe">autoriser Va-Chercher.com à m'appeler par téléphone</mat-checkbox><br>
+        <br>
+        <ul class="btn-wrap">       
+          <li   data-animation="fadeInLeft" data-delay="1.2s">
+              <button   [disabled]="lastFormGroup.invalid" matStepperNext (click)="submit()"  class="main-btn main-btn-4">Chercher</button>
+          </li>
+          <br>
+          <li   data-animation="fadeInRight" data-delay="1.4s">
+            <button  matStepperPrevious class="main-btn main-btn-2">Retour</button>
+        </li>
+      </ul>
+      </form>
+    </mat-step>
+  </mat-vertical-stepper>
+  </div>   
+  
+  <app-footer  *ngIf="!isLoading"  [layout]=""></app-footer>

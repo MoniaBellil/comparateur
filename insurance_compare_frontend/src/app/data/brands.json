@@ -1,0 +1,46 @@
+[
+    {
+        "id":1,
+        "img":"assets/img/clients/01.jpg",
+        "title":"company name"
+    },
+    {
+        "id":2,
+        "img":"assets/img/clients/02.jpg",
+        "title":"company name"
+    },
+    {
+        "id":3,
+        "img":"assets/img/clients/03.jpg",
+        "title":"company name"
+    },
+    {
+        "id":4,
+        "img":"assets/img/clients/04.jpg",
+        "title":"company name"
+    },
+    {
+        "id":5,
+        "img":"assets/img/clients/05.jpg",
+        "title":"company name"
+    }, 
+    {
+        "id":6,
+        "img":"assets/img/clients/06.jpg",
+        "title":"company name"
+    },
+    {
+        "id":7,
+        "img":"assets/img/clients/07.jpg",
+        "title":"company name"
+    },
+    {
+        "id":8,
+        "img":"assets/img/clients/08.jpg",
+        "title":"company name"
+    }, 
+    {
+        "id":9,
+        "img":"assets/img/clients/09.jpg",
+        "title":"company name"
+    }]

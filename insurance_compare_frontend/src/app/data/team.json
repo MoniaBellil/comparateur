@@ -1,0 +1,416 @@
+[
+    {
+        "id": 1,
+        "img": "assets/img/team/01.jpg",
+        "name": "John N. Holmes",
+        "post": "Business Developer",
+        "desc": "Sedut perspiciatis unde omnis iste natus error sit voluptatem accusant doloremque laudantium totam rem aperiam eaquipsa quae ab illo inventore veritatisQuasi architecto beatae vitae dicta sunt explica boemo enim ipsam volupt",
+        "contactinfo": [
+            {
+                "icon": "far fa-phone",
+                "url": "/",
+                "text": "+012 (345) 6789"
+            },
+            {
+                "icon": "far fa-envelope",
+                "url": "/",
+                "text": "example@example.com"
+            },
+            {
+                "icon": "far fa-map-marker-alt",
+                "url": "/",
+                "text": "Broklyn Street USA"
+            }
+        ],
+        "social": [
+            {
+                "icon": "fab fa-facebook-f",
+                "url": "/",
+                "title": "Facebook"
+            },
+            {
+                "icon": "fab fa-twitter",
+                "url": "/",
+                "title": "Twitter"
+            },
+            {
+                "icon": "fab fa-behance",
+                "url": "/",
+                "title": "Behance"
+            },
+            {
+                "icon": "fab fa-instagram",
+                "url": "/",
+                "title": "Instagram"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "img": "assets/img/team/02.jpg",
+        "name": "Kenneth A. Spencer",
+        "post": "Business Developer",
+        "desc": "Sedut perspiciatis unde omnis iste natus error sit voluptatem accusant doloremque laudantium totam rem aperiam eaquipsa quae ab illo inventore veritatisQuasi architecto beatae vitae dicta sunt explica boemo enim ipsam volupt",
+        "contactinfo": [
+            {
+                "icon": "far fa-phone",
+                "url": "/",
+                "text": "+012 (345) 6789"
+            },
+            {
+                "icon": "far fa-envelope",
+                "url": "/",
+                "text": "example@example.com"
+            },
+            {
+                "icon": "far fa-map-marker-alt",
+                "url": "/",
+                "text": "Broklyn Street USA"
+            }
+        ],
+        "social": [
+            {
+                "icon": "fab fa-facebook-f",
+                "url": "/",
+                "title": "Facebook"
+            },
+            {
+                "icon": "fab fa-twitter",
+                "url": "/",
+                "title": "Twitter"
+            },
+            {
+                "icon": "fab fa-behance",
+                "url": "/",
+                "title": "Behance"
+            },
+            {
+                "icon": "fab fa-instagram",
+                "url": "/",
+                "title": "Instagram"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "img": "assets/img/team/03.jpg",
+        "name": "David K. Marble",
+        "post": "Business Developer",
+        "desc": "Sedut perspiciatis unde omnis iste natus error sit voluptatem accusant doloremque laudantium totam rem aperiam eaquipsa quae ab illo inventore veritatisQuasi architecto beatae vitae dicta sunt explica boemo enim ipsam volupt",
+        "contactinfo": [
+            {
+                "icon": "far fa-phone",
+                "url": "/",
+                "text": "+012 (345) 6789"
+            },
+            {
+                "icon": "far fa-envelope",
+                "url": "/",
+                "text": "example@example.com"
+            },
+            {
+                "icon": "far fa-map-marker-alt",
+                "url": "/",
+                "text": "Broklyn Street USA"
+            }
+        ],
+        "social": [
+            {
+                "icon": "fab fa-facebook-f",
+                "url": "/",
+                "title": "Facebook"
+            },
+            {
+                "icon": "fab fa-twitter",
+                "url": "/",
+                "title": "Twitter"
+            },
+            {
+                "icon": "fab fa-behance",
+                "url": "/",
+                "title": "Behance"
+            },
+            {
+                "icon": "fab fa-instagram",
+                "url": "/",
+                "title": "Instagram"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "img": "assets/img/team/04.jpg",
+        "name": "Raymond Grimes",
+        "post": "Business Developer",
+        "desc": "Sedut perspiciatis unde omnis iste natus error sit voluptatem accusant doloremque laudantium totam rem aperiam eaquipsa quae ab illo inventore veritatisQuasi architecto beatae vitae dicta sunt explica boemo enim ipsam volupt",
+        "contactinfo": [
+            {
+                "icon": "far fa-phone",
+                "url": "/",
+                "text": "+012 (345) 6789"
+            },
+            {
+                "icon": "far fa-envelope",
+                "url": "/",
+                "text": "example@example.com"
+            },
+            {
+                "icon": "far fa-map-marker-alt",
+                "url": "/",
+                "text": "Broklyn Street USA"
+            }
+        ],
+        "social": [
+            {
+                "icon": "fab fa-facebook-f",
+                "url": "/",
+                "title": "Facebook"
+            },
+            {
+                "icon": "fab fa-twitter",
+                "url": "/",
+                "title": "Twitter"
+            },
+            {
+                "icon": "fab fa-behance",
+                "url": "/",
+                "title": "Behance"
+            },
+            {
+                "icon": "fab fa-instagram",
+                "url": "/",
+                "title": "Instagram"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "img": "assets/img/team/05.jpg",
+        "name": "Sebastian Cartwright",
+        "post": "Business Developer",
+        "desc": "Sedut perspiciatis unde omnis iste natus error sit voluptatem accusant doloremque laudantium totam rem aperiam eaquipsa quae ab illo inventore veritatisQuasi architecto beatae vitae dicta sunt explica boemo enim ipsam volupt",
+        "contactinfo": [
+            {
+                "icon": "far fa-phone",
+                "url": "/",
+                "text": "+012 (345) 6789"
+            },
+            {
+                "icon": "far fa-envelope",
+                "url": "/",
+                "text": "example@example.com"
+            },
+            {
+                "icon": "far fa-map-marker-alt",
+                "url": "/",
+                "text": "Broklyn Street USA"
+            }
+        ],
+        "social": [
+            {
+                "icon": "fab fa-facebook-f",
+                "url": "/",
+                "title": "Facebook"
+            },
+            {
+                "icon": "fab fa-twitter",
+                "url": "/",
+                "title": "Twitter"
+            },
+            {
+                "icon": "fab fa-behance",
+                "url": "/",
+                "title": "Behance"
+            },
+            {
+                "icon": "fab fa-instagram",
+                "url": "/",
+                "title": "Instagram"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "img": "assets/img/team/22.png",
+        "name": "Joseph Browne",
+        "post": "Business Developer",
+        "desc": "Sedut perspiciatis unde omnis iste natus error sit voluptatem accusant doloremque laudantium totam rem aperiam eaquipsa quae ab illo inventore veritatisQuasi architecto beatae vitae dicta sunt explica boemo enim ipsam volupt",
+        "contactinfo": [
+            {
+                "icon": "far fa-phone",
+                "url": "/",
+                "text": "+012 (345) 6789"
+            },
+            {
+                "icon": "far fa-envelope",
+                "url": "/",
+                "text": "example@example.com"
+            },
+            {
+                "icon": "far fa-map-marker-alt",
+                "url": "/",
+                "text": "Broklyn Street USA"
+            }
+        ],
+        "social": [
+            {
+                "icon": "fab fa-facebook-f",
+                "url": "/",
+                "title": "Facebook"
+            },
+            {
+                "icon": "fab fa-twitter",
+                "url": "/",
+                "title": "Twitter"
+            },
+            {
+                "icon": "fab fa-behance",
+                "url": "/",
+                "title": "Behance"
+            },
+            {
+                "icon": "fab fa-instagram",
+                "url": "/",
+                "title": "Instagram"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "img": "assets/img/team/20.png",
+        "name": "Morgan Graham",
+        "post": "Business Developer",
+        "desc": "Sedut perspiciatis unde omnis iste natus error sit voluptatem accusant doloremque laudantium totam rem aperiam eaquipsa quae ab illo inventore veritatisQuasi architecto beatae vitae dicta sunt explica boemo enim ipsam volupt",
+        "contactinfo": [
+            {
+                "icon": "far fa-phone",
+                "url": "/",
+                "text": "+012 (345) 6789"
+            },
+            {
+                "icon": "far fa-envelope",
+                "url": "/",
+                "text": "example@example.com"
+            },
+            {
+                "icon": "far fa-map-marker-alt",
+                "url": "/",
+                "text": "Broklyn Street USA"
+            }
+        ],
+        "social": [
+            {
+                "icon": "fab fa-facebook-f",
+                "url": "/",
+                "title": "Facebook"
+            },
+            {
+                "icon": "fab fa-twitter",
+                "url": "/",
+                "title": "Twitter"
+            },
+            {
+                "icon": "fab fa-behance",
+                "url": "/",
+                "title": "Behance"
+            },
+            {
+                "icon": "fab fa-instagram",
+                "url": "/",
+                "title": "Instagram"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "img": "assets/img/team/16.png",
+        "name": "Mason Parkinson",
+        "post": "Business Developer",
+        "desc": "Sedut perspiciatis unde omnis iste natus error sit voluptatem accusant doloremque laudantium totam rem aperiam eaquipsa quae ab illo inventore veritatisQuasi architecto beatae vitae dicta sunt explica boemo enim ipsam volupt",
+        "contactinfo": [
+            {
+                "icon": "far fa-phone",
+                "url": "/",
+                "text": "+012 (345) 6789"
+            },
+            {
+                "icon": "far fa-envelope",
+                "url": "/",
+                "text": "example@example.com"
+            },
+            {
+                "icon": "far fa-map-marker-alt",
+                "url": "/",
+                "text": "Broklyn Street USA"
+            }
+        ],
+        "social": [
+            {
+                "icon": "fab fa-facebook-f",
+                "url": "/",
+                "title": "Facebook"
+            },
+            {
+                "icon": "fab fa-twitter",
+                "url": "/",
+                "title": "Twitter"
+            },
+            {
+                "icon": "fab fa-behance",
+                "url": "/",
+                "title": "Behance"
+            },
+            {
+                "icon": "fab fa-instagram",
+                "url": "/",
+                "title": "Instagram"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "img": "assets/img/team/06.jpg",
+        "name": "Mason Parkinson",
+        "post": "Business Developer",
+        "desc": "Sedut perspiciatis unde omnis iste natus error sit voluptatem accusant doloremque laudantium totam rem aperiam eaquipsa quae ab illo inventore veritatisQuasi architecto beatae vitae dicta sunt explica boemo enim ipsam volupt",
+        "contactinfo": [
+            {
+                "icon": "far fa-phone",
+                "url": "/",
+                "text": "+012 (345) 6789"
+            },
+            {
+                "icon": "far fa-envelope",
+                "url": "/",
+                "text": "example@example.com"
+            },
+            {
+                "icon": "far fa-map-marker-alt",
+                "url": "/",
+                "text": "Broklyn Street USA"
+            }
+        ],
+        "social": [
+            {
+                "icon": "fab fa-facebook-f",
+                "url": "/",
+                "title": "Facebook"
+            },
+            {
+                "icon": "fab fa-twitter",
+                "url": "/",
+                "title": "Twitter"
+            },
+            {
+                "icon": "fab fa-behance",
+                "url": "/",
+                "title": "Behance"
+            },
+            {
+                "icon": "fab fa-instagram",
+                "url": "/",
+                "title": "Instagram"
+            }
+        ]
+    }
+]

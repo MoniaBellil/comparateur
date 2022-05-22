@@ -1,0 +1,29 @@
+<div class="related-product">
+    <h2 class="related-title">Related Products</h2>
+    <ngx-slick-carousel #slickModal="slick-carousel" [config]="settings" class="product-loop related-product-slider row">
+        <div ngxSlickItem class="col-lg-3 col-sm-6" *ngFor="let item of shopblock">
+            <div class="single-product">
+                <div class="product-img">
+                    <img [src]="item.image[0]" [alt]="item.title">
+                    <div class="product-action">
+                        <a href="#"><i class="far fa-shopping-cart"></i></a>
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product-desc">
+                    <ul class="rating">
+                        <ngb-rating [max]="5" [(rate)]="item.rating" [readonly]="true">
+                            <ng-template let-fill="fill" let-index="index">
+                                <li>
+                                    <i class="fas fa-star" [class.active]="fill === 100"></i>
+                                </li>
+                            </ng-template>
+                        </ngb-rating>
+                    </ul>
+                    <h5 class="title"><a routerLink="/product-details/{{item.id}}">{{item.title}}</a></h5>
+                    <span class="price">${{item.price | number:'1.2-2'}}</span>
+                </div>
+            </div>
+        </div>
+    </ngx-slick-carousel>
+</div>

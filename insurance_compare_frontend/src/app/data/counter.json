@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "icon":"flaticon-graphic",
+        "title":"Project Complete",
+        "value":3568,
+        "masonry":""
+    },
+    {
+        "id":2,
+        "icon":"flaticon-plan",
+        "title":"Satisfied Clients",
+        "value":7858,
+        "masonry":"mt-30"
+    },
+    {
+        "id":3,
+        "icon":"flaticon-target-1",
+        "title":"International Awards",
+        "value":6351,
+        "masonry":"mt-30"
+    },
+    {
+        "id":4,
+        "icon":"flaticon-teamwork",
+        "title":"Expert Team Members",
+        "value":7855,
+        "masonry":"mt-30"
+    }
+]

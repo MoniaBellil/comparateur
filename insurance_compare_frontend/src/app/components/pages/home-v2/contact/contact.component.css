@@ -1,0 +1,49 @@
+
+
+
+.form__input {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+	margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 100%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+  border-radius: 20px;
+}
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(-4rem);
+  transform: translateY(-4rem);
+}
+
+.timepicker__header[_ngcontent-jrr-c7] {
+  background-color: #202267 !important;
+}
+@media only screen and (max-width: 478px) {
+  .small{
+    max-width: 59px;
+    position: absolute;
+    top: 171px;
+    left: 2%;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .big {
+      display: inline-block;
+      position: relative;
+ 
+  }
+}
+button:disabled,
+button[disabled]{
+  opacity: 0.3;
+  pointer-events: none !important;
+}

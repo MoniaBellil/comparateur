@@ -1,0 +1,28 @@
+<div class="shop-sidebar">
+    <div class="widget product-cat-widget">
+        <h4 class="widget-title">Category</h4>
+        <ul>
+            <li *ngFor="let item of category">
+                <a routerLink="/shop/cat/{{item.id}}">{{item.title}}</a>
+            </li>
+        </ul>
+    </div>
+    <div class="widget product-tag-widget">
+        <h4 class="widget-title">Populer Tag</h4>
+        <div class="tags-loop">
+            <a routerLink="/shop/tag/{{item.id}}" *ngFor="let item of tags">{{item.title}}</a>
+        </div>
+    </div>
+    <div class="widget product-filter-widget">
+        <h4 class="widget-title">Filer By Price</h4>
+        <div class="price-range-wrap">
+            <div class="slider-range">
+                <div id="slider-range"></div>
+            </div>
+            <div class="price-ammount">
+                <span>Price :</span>
+                <input type="text" id="amount" name="price" disabled>
+            </div>
+        </div>
+    </div>
+</div>

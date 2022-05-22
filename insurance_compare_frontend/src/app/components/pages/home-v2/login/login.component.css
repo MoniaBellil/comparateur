@@ -1,0 +1,79 @@
+
+
+.mat-sidenav-content{
+    font-size: 100%;
+    text-align: left;
+    height: 80% !important;
+}
+.mat-form-field {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.125;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+}
+
+@media only screen and (max-width: 1000px) {
+    .mat-form-field {
+        display: inline-block;
+        position: relative;
+        text-align: left;
+        width: 9em;
+    }
+ }
+  @media only screen and (min-width: 1000px) {
+    .mat-form-field {
+        display: inline-block;
+        position: relative;
+        text-align: left;
+        width: 25em;
+    }
+  }
+
+  .test{
+    margin-top: -150px;  
+    font-size: 36px !important;
+  }
+
+  .banner-section.banner-section-two .single-banner {
+    padding-bottom: 30px;
+    padding-top: 365px;
+}
+
+.mat-card:not([class*=mat-elevation-z]) {
+    box-shadow: 0px 0px 15px 0px #616161, 0px 1px 1px 0px #616161, 0px 1px 3px 0px #616161;
+
+}
+
+.admin{
+    font-size: 150%;
+    font-family: 'Source Sans Pro';
+    color: #202267;
+}
+
+.login{
+    text-align: center; 
+    margin-bottom: 11%; 
+    margin-top: 10%; 
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@media only screen and (max-width: 700px) {
+    .small-login {
+        text-align: center; 
+        margin-bottom: 11%; 
+        margin-top: 150px; 
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+ }
+  @media only screen and (min-width: 700px) {
+    .large-login {
+        text-align: center; 
+        margin-bottom: 11%; 
+        margin-top: 150px; 
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+  }

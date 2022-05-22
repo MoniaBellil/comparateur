@@ -1,0 +1,222 @@
+
+    <div id="preloader" *ngIf="isLoading">
+        <img style="    max-width: 310px;
+        max-height: 320px;
+        margin-top: 150px;" src="assets/img/illustration/wait.gif" /> 
+      <p style="position: absolute;
+      top: 60%;
+      font-family: 'Source Sans Pro';
+      font-size: revert;
+      font-weight: bold;">Veuillez patienter, nous recherchons les meilleures offres pour Vous</p>   
+  </div> 
+  <app-fixed-header *ngIf="!isLoading"  ></app-fixed-header>
+  <div *ngIf="!isLoading"  style="
+  text-align: center; margin-top: 50px; margin-bottom: 15%;" >
+  <div class="illustration-img text-center">
+    <img  class="small-image1 large-image1" src="assets/img/illustration/animal.png" alt="img">
+</div> 
+<div style="height: 150px; overflow: hidden;">
+  <svg viewBox="0 0 500 200" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+    <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" style="stroke: none;fill: #cb218d27;"></path>
+  </svg>
+</div>
+ <mat-vertical-stepper *ngIf="!isLoading" class="stepper" [linear]="isLinear" #stepper>
+    <mat-step [stepControl]="firstFormGroup">
+      <form   class="left" [formGroup]="firstFormGroup">
+        <ng-template matStepLabel>Renseignez les informations de votre <br> projet et Adhérent principal
+        </ng-template>
+
+        <!--hereee start -->
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+            <mat-label>Type animal</mat-label>
+            <mat-select (ngModelChange)="onTypeSelect($event)" name="countryReactiveVaraible" formControlName="type" placeholder="Type animal">
+              <mat-option *ngFor="let type of type" [value]="type">
+                {{type.text}}
+              </mat-option>
+            </mat-select>
+            <mat-error>
+              Entrez le type de votre animale
+           </mat-error>
+          </mat-form-field>
+
+        <mat-form-field class="example-full-width" appearance="outline" style="margin-right: 10px;">
+          <mat-label>Race de l'animal</mat-label>
+          <input type="text"
+                 placeholder="Race de l'animal"
+                 aria-label="Number"
+                 matInput
+                 formControlName="race"
+                 [formControl]="myControl"
+                 [matAutocomplete]="auto">
+          <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+            <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+              {{option}}
+            </mat-option>
+          </mat-autocomplete>
+        </mat-form-field>
+
+        <br>
+        <mat-form-field appearance="outline" style="margin-right: 10px;">
+          <mat-label>Date de naissance Animale</mat-label>
+          <ng-template matStepLabel>Placeholder label 0</ng-template>
+          <input  matInput [matDatepicker]="picker2"
+            formControlName="animalBirth" />
+          <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+          <mat-datepicker #picker2></mat-datepicker>
+          <mat-error>
+            Entrez la date de naissance de votre animale
+         </mat-error>
+        </mat-form-field>
+
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>Nom de l'animal</mat-label>
+          <input  matInput placeholder="race" formControlName="nomanimal" >
+        </mat-form-field>
+        <br>
+        <mat-form-field  appearance="outline"style="margin-right: 10px;">
+          <mat-label>Date d'effet</mat-label>
+          <ng-template matStepLabel>Placeholder label 0</ng-template>
+          <input (ngModelChange)="onDateSelect($event)"  matInput [min]="mindate"  [matDatepicker]="picker"
+            formControlName="date" />
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+          <mat-error>
+            Entrez une date valide          
+           </mat-error>
+       </mat-form-field>
+<br>
+
+    <div class="u-form-group u-form-select u-form-group-2">
+      <label for="select-4191" class="u-label u-label-2">Sexe de l'animal</label>
+      <br>
+      <mat-radio-group formControlName="sexe" aria-label="Select an option">
+        <mat-radio-button value="femelle">Femelle</mat-radio-button>
+        <mat-radio-button style="margin-left: 20px;" value="male">Mâle</mat-radio-button>
+    </mat-radio-group>
+  </div>
+       <br>
+          <mat-checkbox   *ngIf="this.isDog == true" style="margin-top: 1%;" formControlName="checked1">Inscription au LOF</mat-checkbox><br>
+          <mat-checkbox  style="margin-top: 1%; margin-bottom: 3%;" formControlName="checked2">Votre animal est-il actuellement en bonne santé</mat-checkbox>
+        <div>
+          <ul class="btn-wrap">       
+            <li   data-animation="fadeInRight" data-delay="1.4s">
+              <button  [disabled]="firstFormGroup.invalid" matStepperNext   class="main-btn main-btn-4">Suivant</button>
+            </li>
+        </ul>
+        </div>
+      </form>
+    </mat-step>
+
+    <mat-step [stepControl]="secondFormGroup">
+      <form   class="left" [formGroup]="secondFormGroup">
+        <ng-template matStepLabel>Besoins
+        </ng-template>
+
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+            <mat-label>Couverture souhaitée</mat-label>
+            <mat-select  name="countryReactiveVaraible" formControlName="couverture" placeholder="Couverture">
+              <mat-option *ngFor="let couverture of couverture" [value]="couverture">
+                {{couverture.text}}
+              </mat-option>
+            </mat-select>
+            <mat-error>
+              Entrez la Couverture souhaitée!
+           </mat-error>
+          </mat-form-field>
+
+          <mat-form-field  appearance="outline" style="margin-right: 10px;">
+            <mat-label>Regime</mat-label>
+            <mat-select name="countryReactiveVaraible" formControlName="regime" placeholder="Regime">
+              <mat-option *ngFor="let regime of regime" [value]="regime">
+                {{regime.text}}
+              </mat-option>
+            </mat-select>
+            <mat-error>
+              Entrez votre rigime
+           </mat-error>
+          </mat-form-field>
+         <br>
+
+        <div>
+          <ul class="btn-wrap">       
+            <li   data-animation="fadeInRight" data-delay="1.4s">
+              <button  [disabled]="secondFormGroup.invalid" matStepperNext   class="main-btn main-btn-4">Suivant</button>
+            </li>
+        </ul>
+        </div>
+      </form>
+    </mat-step>
+
+    <mat-step  [stepControl]="lastFormGroup">
+      <form class="left" [formGroup]="lastFormGroup">
+        <ng-template matStepLabel>Informations personnelles</ng-template>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>Nom</mat-label>
+          <input  matInput placeholder="votre nom" formControlName="firstname" >
+          <mat-error>
+            entrez votre nom
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>Prénom</mat-label>
+          <input  matInput placeholder="votre prénom" formControlName="lastname" >
+          <mat-error>
+            Entrez votre prénom
+          </mat-error>
+        </mat-form-field>
+        <br>
+        <ng-template matStepLabel></ng-template>
+        <mat-form-field appearance="outline" style="margin-right: 10px;">
+          <mat-label>Votre Date de naissance</mat-label>
+          <ng-template matStepLabel>Placeholder label 0</ng-template>
+          <input  matInput [matDatepicker]="picker1"
+            formControlName="birthDate" />
+          <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+          <mat-datepicker #picker1></mat-datepicker>
+          <mat-error>
+            Entrez votre date de naissance 
+         </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="outline"  style="margin-right: 10px;">
+          <mat-label>code postal</mat-label>
+          <input type="number" matInput placeholder="Code Postal" formControlName="postalCode" required>
+          <mat-error>
+            Entrez votre code postal!
+          </mat-error>
+        </mat-form-field>
+        <br>
+
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>adresse email</mat-label>
+          <input matInput placeholder="adresse email" formControlName="email" required>
+          <mat-error>
+            Entrez votre adresse email
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>Téléphone</mat-label>
+          <input matInput placeholder="numéro de téléphone" formControlName="phonenumber" required>
+          <mat-error>
+            entrez votre numéro de téléphone 
+          </mat-error>
+        </mat-form-field>
+        <br>
+        <mat-checkbox style="margin-top: 1%;" formControlName="callMe">autoriser Va-Chercher.com à m'appeler par téléphone</mat-checkbox><br>
+        <br>
+        <ul class="btn-wrap">       
+          <li   data-animation="fadeInLeft" data-delay="1.2s">
+              <button   [disabled]="lastFormGroup.invalid" (click)="checkPostalCode()"  matStepperNext   class="main-btn main-btn-4">Chercher</button>
+          </li>
+          <br>
+          <li   data-animation="fadeInRight" data-delay="1.4s">
+            <button  matStepperPrevious class="main-btn main-btn-2">Retour</button>
+        </li>
+      </ul>
+      </form>
+    </mat-step>
+
+  </mat-vertical-stepper>
+  </div>   
+  <app-footer  *ngIf="!isLoading"  [layout]="" ></app-footer>
+
+

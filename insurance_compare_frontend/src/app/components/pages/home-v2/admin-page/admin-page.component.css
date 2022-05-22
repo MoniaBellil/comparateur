@@ -1,0 +1,120 @@
+
+
+.mat-sidenav-content{
+    font-size: 100%;
+    text-align: left;
+    height: 80% !important;
+}
+.mat-form-field {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.125;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+}
+
+@media only screen and (max-width: 1300px) {
+    .mat-form-field {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        width: 20em;
+        font-size: 15px;
+
+    }
+ }
+  @media only screen and (min-width: 1300px) {
+    .mat-form-field {
+        display: inline-block;
+        position: relative;
+        text-align: left;
+        width: 30em;
+        font-size: 15px;
+    }
+  }
+
+  .test{
+    margin-top: -150px;  
+    font-size: 36px !important;
+  }
+
+  .banner-section.banner-section-two .single-banner {
+    padding-bottom: 30px;
+    padding-top: 365px;
+}
+
+
+
+.admin{
+    font-size: 116%;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+}
+.mat-card:not([class*=mat-elevation-z]) {
+    box-shadow: 0px 0px 6px 1px rgb(0 0 0 / 20%), 0px 1px 0px 0px rgb(0 0 0 / 14%), 0px 1px 0px 0px rgb(0 0 0 / 12%);
+}
+
+table {width: 100%;}
+
+.mat-elevation-z8 {
+    box-shadow: 0px 0px 6px 1px rgb(0 0 0 / 20%), 0px 1px 0px 0px rgb(0 0 0 / 14%), 0px 1px 0px 0px rgb(0 0 0 / 12%);
+}
+
+
+.left-right{
+    text-align: center; margin-top: 10%; margin-right: 10%; margin-left: 10% ;
+}
+
+@media only screen and (max-width: 610px) {
+    .small-left-right{
+       margin-top: 10%;
+    }
+ }
+  @media only screen and (min-width: 610px) {
+    .big-left-right{
+         width: 150%;
+         margin-top: 11%; margin-right: 10%; margin-left: 10% ;
+    }
+  }
+
+
+  @media only screen and (max-width: 610px) {
+    .small-left-right-user{
+        margin-top: 10%;
+    }
+ }
+  @media only screen and (min-width: 610px) {
+    .big-left-right-user{
+        margin-top: 7%; margin-right:100px; margin-left: 100px ;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .small-margin {
+     
+    }
+ }
+  @media only screen and (min-width: 700px) {
+    .large-margin {
+    
+    }
+  }
+  svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  @media only screen and (max-width: 610px) {
+    .small-one{
+      width: 350px; height: 100%; margin-top: -100px !important; margin-left: 5%; margin-bottom: 50px;
+    }
+
+ }
+  @media only screen and (min-width: 610px) {
+    .big-one{
+      width: 75%; height: 100%; margin-top: -100px !important; margin-left: 5%; margin-bottom: 50px;
+
+    }
+  }

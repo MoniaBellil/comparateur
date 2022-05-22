@@ -1,0 +1,35 @@
+<section class="project-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7 col-md-8">
+                <!-- Section Title -->
+                <div class="section-title left-border">
+                    <span class="title-tag">Latest Project</span>
+                    <h2 class="title">We Complate Much More Latest Project</h2>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-4">
+                <div class="view-moore-btn text-md-right mt-30 mt-md-0">
+                    <a routerLink="/portfolio" class="main-btn">View More Project</a>
+                </div>
+            </div>
+        </div>
+        <!-- Project Boxes -->
+        <div class="row project-boxes mt-80 justify-content-center">
+            <div class="col-lg-4 col-sm-6" *ngFor="let item of portfolio | slice:0:6">
+                <div class="project-box">
+                    <div class="project-thumb">
+                        <div class="thumb bg-img-c" [style.background-image]="'url('+item.gridimg+')'"></div>
+                    </div>
+                    <div class="project-desc text-center">
+                        <h4><a routerLink="/portfolio-details/{{item.id}}">{{item.title}}</a></h4>
+                        <p>{{item.shortdesc}}</p>
+                        <a routerLink="/portfolio-details/{{item.id}}" class="project-link">
+                            <i class="fal fa-long-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

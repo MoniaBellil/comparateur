@@ -1,0 +1,41 @@
+
+  <app-fixed-header></app-fixed-header>
+    <div class="small-login large-login">
+        <mat-card class="box">
+            <br>
+            <br>
+            <form  (ngSubmit)="onSubmit()" class="example-form">
+                <p class="admin">Connectez-vous avec votre compte administrateur</p>
+                <br>
+              <mat-card-content>
+                <mat-form-field  appearance="outline" class="example-full-width">
+                  <input  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"  name="email"
+                  required
+                  id="email"
+                [(ngModel)]="user.email" type="email" matInput placeholder="Email">
+                <mat-error>
+                  Entrez une adresse mail valide
+                  </mat-error>
+                </mat-form-field>
+                  <br>
+                <mat-form-field  appearance="outline" class="example-full-width">
+                  <input  
+                  name="password"
+                  type="password"
+                  required
+                  id="password"
+                  [(ngModel)]="user.password" matInput placeholder="Password">
+                </mat-form-field>
+              </mat-card-content>
+              <ul class="btn-wrap">       
+                <li   data-animation="fadeInRight" data-delay="1.4s">
+                  <button   class="main-btn main-btn-4">Submit</button>
+                </li>
+            </ul>     
+            <br>
+            <br>
+            <br>       
+        </form>
+          </mat-card>
+    </div>
+    <app-footer [layout]="classname" ></app-footer>

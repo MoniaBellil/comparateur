@@ -1,0 +1,2038 @@
+[
+  {
+    "Race_court": 1,
+    "Race_long": "AFFENPINSCHER"
+  },
+  {
+    "Race_court": 461,
+    "Race_long": "African Lion Hound"
+  },
+  {
+    "Race_court": 2,
+    "Race_long": "AIREDALE TERRIER"
+  },
+  {
+    "Race_court": 3,
+    "Race_long": "AKITA"
+  },
+  {
+    "Race_court": 4,
+    "Race_long": "AKITA AMERICAIN"
+  },
+  {
+    "Race_court": 567,
+    "Race_long": "Alaskan Malamute"
+  },
+  {
+    "Race_court": 460,
+    "Race_long": "ALTDEUTSCHER SCHAFERHUNDE"
+  },
+  {
+    "Race_court": 568,
+    "Race_long": "American Bully"
+  },
+  {
+    "Race_court": 462,
+    "Race_long": "American Hairless Terrier"
+  },
+  {
+    "Race_court": 569,
+    "Race_long": "American Pit Bull Terrier"
+  },
+  {
+    "Race_court": 463,
+    "Race_long": "American Water Spaniel"
+  },
+  {
+    "Race_court": 5,
+    "Race_long": "ANGLO FRANCAIS DE PETITE VENERIE"
+  },
+  {
+    "Race_court": 464,
+    "Race_long": "Anglo-Français Tricolore"
+  },
+  {
+    "Race_court": 6,
+    "Race_long": "ARIEGEOIS"
+  },
+  {
+    "Race_court": 7,
+    "Race_long": "AZAWAKH"
+  },
+  {
+    "Race_court": 8,
+    "Race_long": "BANGKAEW DE THAILANDE"
+  },
+  {
+    "Race_court": 9,
+    "Race_long": "BARBET"
+  },
+  {
+    "Race_court": 10,
+    "Race_long": "BARBU TCHEQUE"
+  },
+  {
+    "Race_court": 570,
+    "Race_long": "Barzoï"
+  },
+  {
+    "Race_court": 11,
+    "Race_long": "BARZOÏ"
+  },
+  {
+    "Race_court": 465,
+    "Race_long": "Bas-Rouge"
+  },
+  {
+    "Race_court": 12,
+    "Race_long": "BASENJI"
+  },
+  {
+    "Race_court": 13,
+    "Race_long": "BASSET ARTESIEN NORMAND"
+  },
+  {
+    "Race_court": 14,
+    "Race_long": "BASSET BLEU DE GASCOGNE"
+  },
+  {
+    "Race_court": 15,
+    "Race_long": "BASSET DE WESTPHALIE"
+  },
+  {
+    "Race_court": 16,
+    "Race_long": "BASSET DES ALPES"
+  },
+  {
+    "Race_court": 17,
+    "Race_long": "BASSET FAUVE DE BRETAGNE"
+  },
+  {
+    "Race_court": 18,
+    "Race_long": "BASSET HOUND"
+  },
+  {
+    "Race_court": 19,
+    "Race_long": "BASSET SUEDOIS"
+  },
+  {
+    "Race_court": 20,
+    "Race_long": "BEAGLE"
+  },
+  {
+    "Race_court": 21,
+    "Race_long": "BEAGLE HARRIER"
+  },
+  {
+    "Race_court": 22,
+    "Race_long": "BEARDED COLLIE"
+  },
+  {
+    "Race_court": 466,
+    "Race_long": "Beardy"
+  },
+  {
+    "Race_court": 23,
+    "Race_long": "BEDLINGTON TERRIER"
+  },
+  {
+    "Race_court": 24,
+    "Race_long": "BERGER ALLEMAND"
+  },
+  {
+    "Race_court": 459,
+    "Race_long": "BERGER AMÉRICAIN MINIATURE"
+  },
+  {
+    "Race_court": 25,
+    "Race_long": "BERGER AUSTRALIEN"
+  },
+  {
+    "Race_court": 26,
+    "Race_long": "BERGER BELGE"
+  },
+  {
+    "Race_court": 467,
+    "Race_long": "Berger Belge Groenendal"
+  },
+  {
+    "Race_court": 468,
+    "Race_long": "Berger belge laekenois"
+  },
+  {
+    "Race_court": 416,
+    "Race_long": "BERGER BELGE LAEKENOIS"
+  },
+  {
+    "Race_court": 469,
+    "Race_long": "Berger Belge Malinois"
+  },
+  {
+    "Race_court": 418,
+    "Race_long": "BERGER BELGE TERVUEREN"
+  },
+  {
+    "Race_court": 27,
+    "Race_long": "BERGER BERGAMASQUE"
+  },
+  {
+    "Race_court": 28,
+    "Race_long": "BERGER BLANC SUISSE"
+  },
+  {
+    "Race_court": 470,
+    "Race_long": "Berger Canadien"
+  },
+  {
+    "Race_court": 471,
+    "Race_long": "Berger Catalan"
+  },
+  {
+    "Race_court": 458,
+    "Race_long": "BERGER CREOLE"
+  },
+  {
+    "Race_court": 472,
+    "Race_long": "Berger Croate"
+  },
+  {
+    "Race_court": 473,
+    "Race_long": "Berger d'Alsace"
+  },
+  {
+    "Race_court": 29,
+    "Race_long": "BERGER D'ASIE CENTRALE"
+  },
+  {
+    "Race_court": 474,
+    "Race_long": "Berger d'Atura"
+  },
+  {
+    "Race_court": 30,
+    "Race_long": "BERGER DE BEAUCE"
+  },
+  {
+    "Race_court": 475,
+    "Race_long": "Berger de Bergame"
+  },
+  {
+    "Race_court": 476,
+    "Race_long": "Berger de Bohème"
+  },
+  {
+    "Race_court": 31,
+    "Race_long": "BERGER DE BOSNIE-HERZEGOVINE ET DE CROATIE"
+  },
+  {
+    "Race_court": 32,
+    "Race_long": "BERGER DE BRIE"
+  },
+  {
+    "Race_court": 477,
+    "Race_long": "Berger de Crau"
+  },
+  {
+    "Race_court": 33,
+    "Race_long": "BERGER DE LA MAREMME ET DES ABRUZZES"
+  },
+  {
+    "Race_court": 34,
+    "Race_long": "BERGER DE LA SERRA DE AIRES"
+  },
+  {
+    "Race_court": 35,
+    "Race_long": "BERGER DE PICARDIE"
+  },
+  {
+    "Race_court": 478,
+    "Race_long": "Berger de Podhale"
+  },
+  {
+    "Race_court": 36,
+    "Race_long": "BERGER DE RUSSIE MERIDIONALE"
+  },
+  {
+    "Race_court": 479,
+    "Race_long": "Berger de Savoie"
+  },
+  {
+    "Race_court": 480,
+    "Race_long": "Berger des Alpes"
+  },
+  {
+    "Race_court": 37,
+    "Race_long": "BERGER DES PYRENEES A FACE RASE"
+  },
+  {
+    "Race_court": 38,
+    "Race_long": "BERGER DES PYRENEES A POIL LONG"
+  },
+  {
+    "Race_court": 39,
+    "Race_long": "BERGER DU CAUCASE"
+  },
+  {
+    "Race_court": 40,
+    "Race_long": "BERGER DU KARST"
+  },
+  {
+    "Race_court": 481,
+    "Race_long": "Berger Finnois de Laponie"
+  },
+  {
+    "Race_court": 41,
+    "Race_long": "BERGER FINNOIS DE LAPONIE"
+  },
+  {
+    "Race_court": 42,
+    "Race_long": "BERGER HOLLANDAIS"
+  },
+  {
+    "Race_court": 43,
+    "Race_long": "BERGER POLONAIS DE PLAINE"
+  },
+  {
+    "Race_court": 420,
+    "Race_long": "BERGER PORTUGAIS"
+  },
+  {
+    "Race_court": 482,
+    "Race_long": "Bichon à poil droit"
+  },
+  {
+    "Race_court": 44,
+    "Race_long": "BICHON A POIL FRISE"
+  },
+  {
+    "Race_court": 45,
+    "Race_long": "BICHON BOLONAIS"
+  },
+  {
+    "Race_court": 46,
+    "Race_long": "BICHON HAVANAIS"
+  },
+  {
+    "Race_court": 47,
+    "Race_long": "BICHON MALTAIS"
+  },
+  {
+    "Race_court": 48,
+    "Race_long": "BILLY"
+  },
+  {
+    "Race_court": 483,
+    "Race_long": "Bleu d'Auvergne"
+  },
+  {
+    "Race_court": 484,
+    "Race_long": "Bloodhound"
+  },
+  {
+    "Race_court": 485,
+    "Race_long": "Bobtail"
+  },
+  {
+    "Race_court": 486,
+    "Race_long": "Bodeguero"
+  },
+  {
+    "Race_court": 571,
+    "Race_long": "Boerbull"
+  },
+  {
+    "Race_court": 487,
+    "Race_long": "Boerenfox"
+  },
+  {
+    "Race_court": 49,
+    "Race_long": "BORDER COLLIE"
+  },
+  {
+    "Race_court": 50,
+    "Race_long": "BORDER TERRIER"
+  },
+  {
+    "Race_court": 421,
+    "Race_long": "BOULEDOGUE AMERICAIN"
+  },
+  {
+    "Race_court": 414,
+    "Race_long": "BOULEDOGUE ANGLAIS"
+  },
+  {
+    "Race_court": 51,
+    "Race_long": "BOULEDOGUE FRANCAIS"
+  },
+  {
+    "Race_court": 52,
+    "Race_long": "BOUVIER AUSTRALIEN"
+  },
+  {
+    "Race_court": 53,
+    "Race_long": "BOUVIER AUSTRALIEN COURTE QUEUE"
+  },
+  {
+    "Race_court": 54,
+    "Race_long": "BOUVIER BERNOIS"
+  },
+  {
+    "Race_court": 55,
+    "Race_long": "BOUVIER DE L'APPENZELL"
+  },
+  {
+    "Race_court": 56,
+    "Race_long": "BOUVIER DE L'ENTLEBUCH"
+  },
+  {
+    "Race_court": 488,
+    "Race_long": "Bouvier des Alpes"
+  },
+  {
+    "Race_court": 57,
+    "Race_long": "BOUVIER DES ARDENNES"
+  },
+  {
+    "Race_court": 58,
+    "Race_long": "BOUVIER DES FLANDRES"
+  },
+  {
+    "Race_court": 59,
+    "Race_long": "BOXER"
+  },
+  {
+    "Race_court": 60,
+    "Race_long": "BRACHET ALLEMAND"
+  },
+  {
+    "Race_court": 61,
+    "Race_long": "BRACHET DE STYRIE A POIL DUR"
+  },
+  {
+    "Race_court": 62,
+    "Race_long": "BRACHET NOIR ET FEU"
+  },
+  {
+    "Race_court": 63,
+    "Race_long": "BRACHET POLONAIS"
+  },
+  {
+    "Race_court": 64,
+    "Race_long": "BRACHET TYROLIEN"
+  },
+  {
+    "Race_court": 65,
+    "Race_long": "BRAQUE ALLEMAND A POIL COURT"
+  },
+  {
+    "Race_court": 66,
+    "Race_long": "BRAQUE D AUVERGNE"
+  },
+  {
+    "Race_court": 67,
+    "Race_long": "BRAQUE DE BURGOS"
+  },
+  {
+    "Race_court": 68,
+    "Race_long": "BRAQUE DE L ARIEGE"
+  },
+  {
+    "Race_court": 69,
+    "Race_long": "BRAQUE DE WEIMAR"
+  },
+  {
+    "Race_court": 70,
+    "Race_long": "BRAQUE DU BOURBONNAIS"
+  },
+  {
+    "Race_court": 422,
+    "Race_long": "BRAQUE DUPUY"
+  },
+  {
+    "Race_court": 71,
+    "Race_long": "BRAQUE FRANCAIS, TYPE GASCOGNE"
+  },
+  {
+    "Race_court": 72,
+    "Race_long": "BRAQUE FRANCAIS, TYPE PYRENEES"
+  },
+  {
+    "Race_court": 73,
+    "Race_long": "BRAQUE HONGROIS A POIL COURT"
+  },
+  {
+    "Race_court": 74,
+    "Race_long": "BRAQUE HONGROIS A POIL DUR"
+  },
+  {
+    "Race_court": 75,
+    "Race_long": "BRAQUE ITALIEN"
+  },
+  {
+    "Race_court": 76,
+    "Race_long": "BRAQUE SAINT GERMAIN"
+  },
+  {
+    "Race_court": 77,
+    "Race_long": "BRAQUE SLOVAQUE A POIL DUR"
+  },
+  {
+    "Race_court": 489,
+    "Race_long": "Briard"
+  },
+  {
+    "Race_court": 490,
+    "Race_long": "Briquet d'Artois"
+  },
+  {
+    "Race_court": 78,
+    "Race_long": "BRIQUET DE PROVENCE"
+  },
+  {
+    "Race_court": 79,
+    "Race_long": "BRIQUET GRIFFON VENDEEN"
+  },
+  {
+    "Race_court": 80,
+    "Race_long": "BROHOLMER"
+  },
+  {
+    "Race_court": 491,
+    "Race_long": "Bruno du Jura"
+  },
+  {
+    "Race_court": 81,
+    "Race_long": "BRUNO SAINT-HUBERT FRANCAIS"
+  },
+  {
+    "Race_court": 82,
+    "Race_long": "BUHUND NORVEGIEN"
+  },
+  {
+    "Race_court": 83,
+    "Race_long": "BULL TERRIER"
+  },
+  {
+    "Race_court": 84,
+    "Race_long": "BULL TERRIER MINIATURE"
+  },
+  {
+    "Race_court": 85,
+    "Race_long": "BULLDOG"
+  },
+  {
+    "Race_court": 86,
+    "Race_long": "BULLMASTIFF"
+  },
+  {
+    "Race_court": 87,
+    "Race_long": "CAIRN TERRIER"
+  },
+  {
+    "Race_court": 415,
+    "Race_long": "CANE CORSO"
+  },
+  {
+    "Race_court": 88,
+    "Race_long": "CANICHE"
+  },
+  {
+    "Race_court": 492,
+    "Race_long": "Cao da Serra de Aires"
+  },
+  {
+    "Race_court": 89,
+    "Race_long": "CARLIN"
+  },
+  {
+    "Race_court": 90,
+    "Race_long": "CAVALIER KING CHARLES"
+  },
+  {
+    "Race_court": 493,
+    "Race_long": "Cesky Terrier"
+  },
+  {
+    "Race_court": 572,
+    "Race_long": "Charplaninatz"
+  },
+  {
+    "Race_court": 91,
+    "Race_long": "CHIEN A LOUTRE"
+  },
+  {
+    "Race_court": 92,
+    "Race_long": "CHIEN CHINOIS A CRETE"
+  },
+  {
+    "Race_court": 494,
+    "Race_long": "Chien corse"
+  },
+  {
+    "Race_court": 93,
+    "Race_long": "CHIEN COURANT D'ISTRIE A POIL DUR"
+  },
+  {
+    "Race_court": 94,
+    "Race_long": "CHIEN COURANT D'ISTRIE A POIL RAS"
+  },
+  {
+    "Race_court": 95,
+    "Race_long": "CHIEN COURANT DE BOSNIE A POIL DUR"
+  },
+  {
+    "Race_court": 96,
+    "Race_long": "CHIEN COURANT DE HALDEN"
+  },
+  {
+    "Race_court": 97,
+    "Race_long": "CHIEN COURANT DE HAMILTON"
+  },
+  {
+    "Race_court": 98,
+    "Race_long": "CHIEN COURANT DE HYGEN"
+  },
+  {
+    "Race_court": 99,
+    "Race_long": "CHIEN COURANT DE LA VALLE DE LA SAVE"
+  },
+  {
+    "Race_court": 100,
+    "Race_long": "CHIEN COURANT DE MONTAGNE DU MONTENEGRO"
+  },
+  {
+    "Race_court": 495,
+    "Race_long": "Chien courant de Posavatz"
+  },
+  {
+    "Race_court": 101,
+    "Race_long": "CHIEN COURANT DE SCHILLER"
+  },
+  {
+    "Race_court": 423,
+    "Race_long": "CHIEN COURANT DE SCHWYZ"
+  },
+  {
+    "Race_court": 102,
+    "Race_long": "CHIEN COURANT DE TRANSYLVANIE"
+  },
+  {
+    "Race_court": 424,
+    "Race_long": "CHIEN COURANT DES BALKANS"
+  },
+  {
+    "Race_court": 103,
+    "Race_long": "CHIEN COURANT DU SMALAND"
+  },
+  {
+    "Race_court": 104,
+    "Race_long": "CHIEN COURANT ESPAGNOL"
+  },
+  {
+    "Race_court": 105,
+    "Race_long": "CHIEN COURANT FINLANDAIS"
+  },
+  {
+    "Race_court": 106,
+    "Race_long": "CHIEN COURANT GREC"
+  },
+  {
+    "Race_court": 107,
+    "Race_long": "CHIEN COURANT ITALIEN A POIL DUR"
+  },
+  {
+    "Race_court": 108,
+    "Race_long": "CHIEN COURANT ITALIEN A POIL RAS"
+  },
+  {
+    "Race_court": 425,
+    "Race_long": "CHIEN COURANT LUCERNOIS"
+  },
+  {
+    "Race_court": 109,
+    "Race_long": "CHIEN COURANT NORVEGIEN"
+  },
+  {
+    "Race_court": 110,
+    "Race_long": "CHIEN COURANT POLONAIS"
+  },
+  {
+    "Race_court": 496,
+    "Race_long": "Chien courant Portugais"
+  },
+  {
+    "Race_court": 111,
+    "Race_long": "CHIEN COURANT SERBE"
+  },
+  {
+    "Race_court": 112,
+    "Race_long": "CHIEN COURANT SLOVAQUE"
+  },
+  {
+    "Race_court": 113,
+    "Race_long": "CHIEN COURANT SUISSE"
+  },
+  {
+    "Race_court": 114,
+    "Race_long": "CHIEN COURANT TRICOLORE SERBE"
+  },
+  {
+    "Race_court": 115,
+    "Race_long": "CHIEN D'ARRET ALLEMAND A POIL DUR"
+  },
+  {
+    "Race_court": 116,
+    "Race_long": "CHIEN D'ARRET ALLEMAND A POIL LONG"
+  },
+  {
+    "Race_court": 117,
+    "Race_long": "CHIEN D'ARRET ALLEMAND A POIL RAIDE"
+  },
+  {
+    "Race_court": 118,
+    "Race_long": "CHIEN D'ARRET DANOIS ANCESTRAL"
+  },
+  {
+    "Race_court": 119,
+    "Race_long": "CHIEN D'ARRET FRISON"
+  },
+  {
+    "Race_court": 120,
+    "Race_long": "CHIEN D'ARRET PORTUGAIS"
+  },
+  {
+    "Race_court": 121,
+    "Race_long": "CHIEN D'ARTOIS"
+  },
+  {
+    "Race_court": 122,
+    "Race_long": "CHIEN D'EAU AMERICAIN"
+  },
+  {
+    "Race_court": 123,
+    "Race_long": "CHIEN D'EAU ESPAGNOL"
+  },
+  {
+    "Race_court": 124,
+    "Race_long": "CHIEN D'EAU FRISON"
+  },
+  {
+    "Race_court": 125,
+    "Race_long": "CHIEN D'EAU PORTUGAIS"
+  },
+  {
+    "Race_court": 126,
+    "Race_long": "CHIEN D'EAU ROMAGNOL"
+  },
+  {
+    "Race_court": 506,
+    "Race_long": "Chien d'élan Gris Mineur"
+  },
+  {
+    "Race_court": 127,
+    "Race_long": "CHIEN D'ELAN NORVEGIEN GRIS"
+  },
+  {
+    "Race_court": 128,
+    "Race_long": "CHIEN D'ELAN NORVEGIEN NOIR"
+  },
+  {
+    "Race_court": 129,
+    "Race_long": "CHIEN D'ELAN SUEDOIS / JÄMTHUND"
+  },
+  {
+    "Race_court": 130,
+    "Race_long": "CHIEN D'OURS DE CARELIE"
+  },
+  {
+    "Race_court": 131,
+    "Race_long": "CHIEN D'OYSEL ALLEMAND"
+  },
+  {
+    "Race_court": 132,
+    "Race_long": "CHIEN DE BERGER ANGLAIS ANCESTRAL"
+  },
+  {
+    "Race_court": 497,
+    "Race_long": "Chien de Berger Britannique"
+  },
+  {
+    "Race_court": 133,
+    "Race_long": "CHIEN DE BERGER CATALAN"
+  },
+  {
+    "Race_court": 498,
+    "Race_long": "Chien de berger Catalan"
+  },
+  {
+    "Race_court": 134,
+    "Race_long": "CHIEN DE BERGER CROATE"
+  },
+  {
+    "Race_court": 499,
+    "Race_long": "Chien de berger Croate"
+  },
+  {
+    "Race_court": 135,
+    "Race_long": "CHIEN DE BERGER D ANATOLIE"
+  },
+  {
+    "Race_court": 136,
+    "Race_long": "CHIEN DE BERGER DE MAJORQUE"
+  },
+  {
+    "Race_court": 500,
+    "Race_long": "Chien de berger de Majorque"
+  },
+  {
+    "Race_court": 137,
+    "Race_long": "CHIEN DE BERGER DES SHETLAND"
+  },
+  {
+    "Race_court": 138,
+    "Race_long": "CHIEN DE BERGER DES TATRAS"
+  },
+  {
+    "Race_court": 419,
+    "Race_long": "CHIEN DE BERGER DU BASSIN DE KRAS"
+  },
+  {
+    "Race_court": 573,
+    "Race_long": "Chien de Berger Hongrois"
+  },
+  {
+    "Race_court": 139,
+    "Race_long": "CHIEN DE BERGER ISLANDAIS"
+  },
+  {
+    "Race_court": 140,
+    "Race_long": "CHIEN DE BERGER ROUMAIN DE MIORITZA"
+  },
+  {
+    "Race_court": 141,
+    "Race_long": "CHIEN DE BERGER ROUMAIN DES CARPATHES"
+  },
+  {
+    "Race_court": 142,
+    "Race_long": "CHIEN DE BERGER YOUGOSLAVE DE CHARPLANINA"
+  },
+  {
+    "Race_court": 143,
+    "Race_long": "CHIEN DE CANAAN"
+  },
+  {
+    "Race_court": 144,
+    "Race_long": "CHIEN DE CASTRO LABOREIRO"
+  },
+  {
+    "Race_court": 574,
+    "Race_long": "Chien de combat Japonais"
+  },
+  {
+    "Race_court": 501,
+    "Race_long": "Chien de combat majorquin"
+  },
+  {
+    "Race_court": 145,
+    "Race_long": "CHIEN DE COUR ITALIEN"
+  },
+  {
+    "Race_court": 146,
+    "Race_long": "CHIEN DE FERME DANO-SUEDOIS"
+  },
+  {
+    "Race_court": 502,
+    "Race_long": "Chien de Franche-Comté"
+  },
+  {
+    "Race_court": 575,
+    "Race_long": "Chien de garde Turc"
+  },
+  {
+    "Race_court": 147,
+    "Race_long": "CHIEN DE GARENNE DES CANARIES"
+  },
+  {
+    "Race_court": 148,
+    "Race_long": "CHIEN DE GARENNE PORTUGAIS"
+  },
+  {
+    "Race_court": 503,
+    "Race_long": "Chien de Kheops"
+  },
+  {
+    "Race_court": 504,
+    "Race_long": "Chien de l'Ile de la Réunion"
+  },
+  {
+    "Race_court": 149,
+    "Race_long": "CHIEN DE LA SERRA DA ESTRELA"
+  },
+  {
+    "Race_court": 150,
+    "Race_long": "CHIEN DE LEONBERG"
+  },
+  {
+    "Race_court": 151,
+    "Race_long": "CHIEN DE MONTAGNE DE L'ATLAS"
+  },
+  {
+    "Race_court": 152,
+    "Race_long": "CHIEN DE MONTAGNE DES PYRENEES"
+  },
+  {
+    "Race_court": 576,
+    "Race_long": "Chien de montagne du Tibet"
+  },
+  {
+    "Race_court": 153,
+    "Race_long": "CHIEN DE PERDRIX DE DRENTE"
+  },
+  {
+    "Race_court": 154,
+    "Race_long": "CHIEN DE RHODESIE A CRETE DORSALE"
+  },
+  {
+    "Race_court": 155,
+    "Race_long": "CHIEN DE ROUGE DE BAVIERE"
+  },
+  {
+    "Race_court": 156,
+    "Race_long": "CHIEN DE ROUGE DU HANOVRE"
+  },
+  {
+    "Race_court": 157,
+    "Race_long": "CHIEN DE SAINT HUBERT"
+  },
+  {
+    "Race_court": 158,
+    "Race_long": "CHIEN DE TAÏWAN"
+  },
+  {
+    "Race_court": 505,
+    "Race_long": "Chien de Teneriffe"
+  },
+  {
+    "Race_court": 159,
+    "Race_long": "CHIEN DU GROENLAND"
+  },
+  {
+    "Race_court": 507,
+    "Race_long": "Chien du Mexique"
+  },
+  {
+    "Race_court": 160,
+    "Race_long": "CHIEN DU PHARAON"
+  },
+  {
+    "Race_court": 161,
+    "Race_long": "CHIEN FINNOIS DE LAPONIE"
+  },
+  {
+    "Race_court": 577,
+    "Race_long": "Chien Japonais d'Akita"
+  },
+  {
+    "Race_court": 426,
+    "Race_long": "CHIEN LÉOPARD CATAHOULA"
+  },
+  {
+    "Race_court": 162,
+    "Race_long": "CHIEN LOUP DE SAARLOOS"
+  },
+  {
+    "Race_court": 163,
+    "Race_long": "CHIEN LOUP TCHECOSLOVAQUE"
+  },
+  {
+    "Race_court": 164,
+    "Race_long": "CHIEN N. ET F. POUR LA CHASSE AU RATON"
+  },
+  {
+    "Race_court": 165,
+    "Race_long": "CHIEN NORVEGIEN DE MACAREUX"
+  },
+  {
+    "Race_court": 167,
+    "Race_long": "CHIEN NU DU MEXIQUE"
+  },
+  {
+    "Race_court": 166,
+    "Race_long": "CHIEN NU DU PEROU"
+  },
+  {
+    "Race_court": 168,
+    "Race_long": "CHIEN THAILANDAIS A CRETE DORSALE"
+  },
+  {
+    "Race_court": 169,
+    "Race_long": "CHIHUAHUA"
+  },
+  {
+    "Race_court": 170,
+    "Race_long": "CHOW CHOW"
+  },
+  {
+    "Race_court": 171,
+    "Race_long": "CIMARRON URUGUAYEN"
+  },
+  {
+    "Race_court": 172,
+    "Race_long": "CIRNECO DE L ETNA"
+  },
+  {
+    "Race_court": 173,
+    "Race_long": "CLUMBER SPANIEL"
+  },
+  {
+    "Race_court": 508,
+    "Race_long": "Cocker Spaniel"
+  },
+  {
+    "Race_court": 174,
+    "Race_long": "COCKER SPANIEL AMERICAIN"
+  },
+  {
+    "Race_court": 175,
+    "Race_long": "COCKER SPANIEL ANGLAIS"
+  },
+  {
+    "Race_court": 176,
+    "Race_long": "COLLEY A POIL COURT"
+  },
+  {
+    "Race_court": 177,
+    "Race_long": "COLLEY A POIL LONG"
+  },
+  {
+    "Race_court": 509,
+    "Race_long": "Colley barbu"
+  },
+  {
+    "Race_court": 510,
+    "Race_long": "Colley nain"
+  },
+  {
+    "Race_court": 578,
+    "Race_long": "Continental Bulldog"
+  },
+  {
+    "Race_court": 511,
+    "Race_long": "Coonhound noir et feu"
+  },
+  {
+    "Race_court": 178,
+    "Race_long": "COTON DE TULEAR"
+  },
+  {
+    "Race_court": 444,
+    "Race_long": "CROISE"
+  },
+  {
+    "Race_court": 579,
+    "Race_long": "Croise de type molossoïde"
+  },
+  {
+    "Race_court": 512,
+    "Race_long": "Curly coated Retriever"
+  },
+  {
+    "Race_court": 179,
+    "Race_long": "CURSINU"
+  },
+  {
+    "Race_court": 513,
+    "Race_long": "Dachsbracke"
+  },
+  {
+    "Race_court": 180,
+    "Race_long": "DALMATIEN"
+  },
+  {
+    "Race_court": 181,
+    "Race_long": "DANDIE DINMONT TERRIER"
+  },
+  {
+    "Race_court": 580,
+    "Race_long": "Danois"
+  },
+  {
+    "Race_court": 182,
+    "Race_long": "DOBERMANN"
+  },
+  {
+    "Race_court": 581,
+    "Race_long": "Dogo Canario"
+  },
+  {
+    "Race_court": 183,
+    "Race_long": "DOGUE ALLEMAND"
+  },
+  {
+    "Race_court": 582,
+    "Race_long": "Dogue Anglais"
+  },
+  {
+    "Race_court": 184,
+    "Race_long": "DOGUE ARGENTIN"
+  },
+  {
+    "Race_court": 583,
+    "Race_long": "Dogue d'Aquitaine"
+  },
+  {
+    "Race_court": 185,
+    "Race_long": "DOGUE DE BORDEAUX"
+  },
+  {
+    "Race_court": 186,
+    "Race_long": "DOGUE DE MAJORQUE"
+  },
+  {
+    "Race_court": 187,
+    "Race_long": "DOGUE DES CANARIES"
+  },
+  {
+    "Race_court": 188,
+    "Race_long": "DOGUE DU TIBET"
+  },
+  {
+    "Race_court": 514,
+    "Race_long": "Drahthaar"
+  },
+  {
+    "Race_court": 515,
+    "Race_long": "Dunker"
+  },
+  {
+    "Race_court": 584,
+    "Race_long": "English Bull Terrier"
+  },
+  {
+    "Race_court": 427,
+    "Race_long": "ENGLISH COONHOUND"
+  },
+  {
+    "Race_court": 189,
+    "Race_long": "ENGLISH SPRINGER SPANIEL"
+  },
+  {
+    "Race_court": 585,
+    "Race_long": "English Toy Spaniel"
+  },
+  {
+    "Race_court": 190,
+    "Race_long": "EPAGNEUL BLEU DE PICARDIE"
+  },
+  {
+    "Race_court": 191,
+    "Race_long": "EPAGNEUL BRETON"
+  },
+  {
+    "Race_court": 192,
+    "Race_long": "EPAGNEUL D'EAU IRLANDAIS"
+  },
+  {
+    "Race_court": 193,
+    "Race_long": "EPAGNEUL DE PONT AUDEMER"
+  },
+  {
+    "Race_court": 194,
+    "Race_long": "EPAGNEUL DE SAINT USUGE"
+  },
+  {
+    "Race_court": 195,
+    "Race_long": "EPAGNEUL FRANCAIS"
+  },
+  {
+    "Race_court": 196,
+    "Race_long": "EPAGNEUL JAPONAIS"
+  },
+  {
+    "Race_court": 197,
+    "Race_long": "EPAGNEUL KING CHARLES"
+  },
+  {
+    "Race_court": 198,
+    "Race_long": "EPAGNEUL NAIN CONTINENTAL"
+  },
+  {
+    "Race_court": 516,
+    "Race_long": "Epagneul nain Phalène"
+  },
+  {
+    "Race_court": 517,
+    "Race_long": "Epagneul Papillon"
+  },
+  {
+    "Race_court": 199,
+    "Race_long": "EPAGNEUL PEKINOIS"
+  },
+  {
+    "Race_court": 200,
+    "Race_long": "EPAGNEUL PICARD"
+  },
+  {
+    "Race_court": 201,
+    "Race_long": "EPAGNEUL TIBETAIN"
+  },
+  {
+    "Race_court": 202,
+    "Race_long": "ESQUIMAU DU CANADA"
+  },
+  {
+    "Race_court": 203,
+    "Race_long": "EURASIER"
+  },
+  {
+    "Race_court": 204,
+    "Race_long": "FIELD SPANIEL"
+  },
+  {
+    "Race_court": 205,
+    "Race_long": "FILA BRASILEIRO"
+  },
+  {
+    "Race_court": 206,
+    "Race_long": "FILA DE SAINT MIGUEL"
+  },
+  {
+    "Race_court": 518,
+    "Race_long": "Flat Coated Retriever"
+  },
+  {
+    "Race_court": 207,
+    "Race_long": "FOX HOUND ANGLAIS"
+  },
+  {
+    "Race_court": 208,
+    "Race_long": "FOX TERRIER POIL DUR"
+  },
+  {
+    "Race_court": 209,
+    "Race_long": "FOX TERRIER POIL LISSE"
+  },
+  {
+    "Race_court": 519,
+    "Race_long": "Fox-Terrier"
+  },
+  {
+    "Race_court": 210,
+    "Race_long": "FOXHOUND AMERICAIN"
+  },
+  {
+    "Race_court": 211,
+    "Race_long": "FRANCAIS BLANC ET NOIR"
+  },
+  {
+    "Race_court": 212,
+    "Race_long": "FRANCAIS BLANC ET ORANGE"
+  },
+  {
+    "Race_court": 213,
+    "Race_long": "FRANCAIS TRICOLORE"
+  },
+  {
+    "Race_court": 520,
+    "Race_long": "Galgo"
+  },
+  {
+    "Race_court": 214,
+    "Race_long": "GASCON SAINTONGEOIS"
+  },
+  {
+    "Race_court": 521,
+    "Race_long": "Glen of Imaal-Terrier"
+  },
+  {
+    "Race_court": 215,
+    "Race_long": "GOLDEN RETRIEVER"
+  },
+  {
+    "Race_court": 216,
+    "Race_long": "GRAND ANGLO FRANCAIS BLANC ET NOIR"
+  },
+  {
+    "Race_court": 217,
+    "Race_long": "GRAND ANGLO-FRANCAIS BLANC ET ORANGE"
+  },
+  {
+    "Race_court": 218,
+    "Race_long": "GRAND ANGLO-FRANCAIS TRICOLORE"
+  },
+  {
+    "Race_court": 219,
+    "Race_long": "GRAND BASSET GRIFFON VENDEEN"
+  },
+  {
+    "Race_court": 220,
+    "Race_long": "GRAND BLEU DE GASCOGNE"
+  },
+  {
+    "Race_court": 221,
+    "Race_long": "GRAND BOUVIER SUISSE"
+  },
+  {
+    "Race_court": 586,
+    "Race_long": "Grand Chien Japonais"
+  },
+  {
+    "Race_court": 222,
+    "Race_long": "GRAND EPAGNEUL DE MUNSTER"
+  },
+  {
+    "Race_court": 223,
+    "Race_long": "GRAND GRIFFON VENDEEN"
+  },
+  {
+    "Race_court": 224,
+    "Race_long": "GREYHOUND"
+  },
+  {
+    "Race_court": 225,
+    "Race_long": "GRIFFON A POIL DUR KORTHALS"
+  },
+  {
+    "Race_court": 522,
+    "Race_long": "Griffon a poil laineux"
+  },
+  {
+    "Race_court": 226,
+    "Race_long": "GRIFFON BELGE"
+  },
+  {
+    "Race_court": 227,
+    "Race_long": "GRIFFON BLEU DE GASCOGNE"
+  },
+  {
+    "Race_court": 457,
+    "Race_long": "GRIFFON BOULET"
+  },
+  {
+    "Race_court": 228,
+    "Race_long": "GRIFFON BRUXELLOIS"
+  },
+  {
+    "Race_court": 523,
+    "Race_long": "Griffon d'arrêt Slovaque à poil dur"
+  },
+  {
+    "Race_court": 524,
+    "Race_long": "Griffon de Belgique"
+  },
+  {
+    "Race_court": 229,
+    "Race_long": "GRIFFON FAUVE DE BRETAGNE"
+  },
+  {
+    "Race_court": 230,
+    "Race_long": "GRIFFON NIVERNAIS"
+  },
+  {
+    "Race_court": 525,
+    "Race_long": "Griffon Vendéen"
+  },
+  {
+    "Race_court": 526,
+    "Race_long": "Groenlandais"
+  },
+  {
+    "Race_court": 231,
+    "Race_long": "HARRIER"
+  },
+  {
+    "Race_court": 232,
+    "Race_long": "HOKKAIDO"
+  },
+  {
+    "Race_court": 233,
+    "Race_long": "HOVAWART"
+  },
+  {
+    "Race_court": 234,
+    "Race_long": "HUSKY DE SIBERIE"
+  },
+  {
+    "Race_court": 527,
+    "Race_long": "Irish Terrier"
+  },
+  {
+    "Race_court": 528,
+    "Race_long": "Irish Water Spaniel"
+  },
+  {
+    "Race_court": 587,
+    "Race_long": "Irish Wolfhound"
+  },
+  {
+    "Race_court": 529,
+    "Race_long": "Jagdterrier"
+  },
+  {
+    "Race_court": 530,
+    "Race_long": "Jämthund"
+  },
+  {
+    "Race_court": 235,
+    "Race_long": "JINDO COREEN"
+  },
+  {
+    "Race_court": 236,
+    "Race_long": "KAI"
+  },
+  {
+    "Race_court": 237,
+    "Race_long": "KELPIE AUSTRALIEN"
+  },
+  {
+    "Race_court": 531,
+    "Race_long": "King Charles Spaniel"
+  },
+  {
+    "Race_court": 238,
+    "Race_long": "KISHU"
+  },
+  {
+    "Race_court": 239,
+    "Race_long": "KOMONDOR"
+  },
+  {
+    "Race_court": 240,
+    "Race_long": "KROMFOHRLANDER"
+  },
+  {
+    "Race_court": 241,
+    "Race_long": "KUVASZ"
+  },
+  {
+    "Race_court": 430,
+    "Race_long": "KYI LEO"
+  },
+  {
+    "Race_court": 532,
+    "Race_long": "Labradoodle"
+  },
+  {
+    "Race_court": 533,
+    "Race_long": "Lagotto Romagnolo"
+  },
+  {
+    "Race_court": 242,
+    "Race_long": "LAIKA DE SIBERIE OCCIDENTALE"
+  },
+  {
+    "Race_court": 243,
+    "Race_long": "LAIKA DE SIBERIE ORIENTALE"
+  },
+  {
+    "Race_court": 244,
+    "Race_long": "LAIKA RUSSO EUROPEEN"
+  },
+  {
+    "Race_court": 245,
+    "Race_long": "LAKELAND TERRIER"
+  },
+  {
+    "Race_court": 246,
+    "Race_long": "LANDSEER"
+  },
+  {
+    "Race_court": 534,
+    "Race_long": "Langhaar"
+  },
+  {
+    "Race_court": 247,
+    "Race_long": "LAPPHUND SUEDOIS"
+  },
+  {
+    "Race_court": 248,
+    "Race_long": "LEVRIER AFGHAN"
+  },
+  {
+    "Race_court": 535,
+    "Race_long": "Levrier Arabe"
+  },
+  {
+    "Race_court": 249,
+    "Race_long": "LEVRIER ECOSSAIS"
+  },
+  {
+    "Race_court": 250,
+    "Race_long": "LEVRIER ESPAGNOL"
+  },
+  {
+    "Race_court": 251,
+    "Race_long": "LEVRIER HONGROIS"
+  },
+  {
+    "Race_court": 252,
+    "Race_long": "LEVRIER IRLANDAIS"
+  },
+  {
+    "Race_court": 253,
+    "Race_long": "LEVRIER POLONAIS"
+  },
+  {
+    "Race_court": 254,
+    "Race_long": "LHASSA APSO"
+  },
+  {
+    "Race_court": 588,
+    "Race_long": "Lion d'occitanie"
+  },
+  {
+    "Race_court": 536,
+    "Race_long": "Magyar Agar"
+  },
+  {
+    "Race_court": 255,
+    "Race_long": "MALAMUTE DE L'ALASKA"
+  },
+  {
+    "Race_court": 256,
+    "Race_long": "MANCHESTER TERRIER"
+  },
+  {
+    "Race_court": 257,
+    "Race_long": "MASTIFF"
+  },
+  {
+    "Race_court": 258,
+    "Race_long": "MÂTIN DE L'ALENTEJO"
+  },
+  {
+    "Race_court": 259,
+    "Race_long": "MÂTIN DES PYRENEES"
+  },
+  {
+    "Race_court": 260,
+    "Race_long": "MÂTIN ESPAGNOL"
+  },
+  {
+    "Race_court": 261,
+    "Race_long": "MÂTIN NAPOLITAIN"
+  },
+  {
+    "Race_court": 537,
+    "Race_long": "Mittelspitz"
+  },
+  {
+    "Race_court": 589,
+    "Race_long": "Montagne des Pyrénées"
+  },
+  {
+    "Race_court": 262,
+    "Race_long": "MUDI"
+  },
+  {
+    "Race_court": 263,
+    "Race_long": "NORFOLK TERRIER"
+  },
+  {
+    "Race_court": 264,
+    "Race_long": "NORWICH TERRIER"
+  },
+  {
+    "Race_court": 538,
+    "Race_long": "Old English Bulldog"
+  },
+  {
+    "Race_court": 539,
+    "Race_long": "Otterhound"
+  },
+  {
+    "Race_court": 540,
+    "Race_long": "Papillon"
+  },
+  {
+    "Race_court": 541,
+    "Race_long": "Patterdale-Terrier"
+  },
+  {
+    "Race_court": 542,
+    "Race_long": "Pékinois"
+  },
+  {
+    "Race_court": 265,
+    "Race_long": "PETIT BASSET GRIFFON VENDEEN"
+  },
+  {
+    "Race_court": 266,
+    "Race_long": "PETIT BLEU DE GASCOGNE"
+  },
+  {
+    "Race_court": 267,
+    "Race_long": "PETIT BRABANCON"
+  },
+  {
+    "Race_court": 432,
+    "Race_long": "PETIT CHIEN COURANT DU JURA"
+  },
+  {
+    "Race_court": 268,
+    "Race_long": "PETIT CHIEN COURANT SUISSE"
+  },
+  {
+    "Race_court": 269,
+    "Race_long": "PETIT CHIEN HOLLANDAIS DE CHASSE AU GIBIER D'EAU"
+  },
+  {
+    "Race_court": 270,
+    "Race_long": "PETIT CHIEN LION"
+  },
+  {
+    "Race_court": 271,
+    "Race_long": "PETIT CHIEN RUSSE"
+  },
+  {
+    "Race_court": 272,
+    "Race_long": "PETIT EPAGNEUL DE MUNSTER"
+  },
+  {
+    "Race_court": 273,
+    "Race_long": "PETIT LEVRIER ITALIEN"
+  },
+  {
+    "Race_court": 543,
+    "Race_long": "Petit Spitz"
+  },
+  {
+    "Race_court": 274,
+    "Race_long": "PINSCHER ALLEMAND"
+  },
+  {
+    "Race_court": 275,
+    "Race_long": "PINSCHER AUTRICHIEN"
+  },
+  {
+    "Race_court": 544,
+    "Race_long": "Pinscher moyen"
+  },
+  {
+    "Race_court": 276,
+    "Race_long": "PINSCHER NAIN"
+  },
+  {
+    "Race_court": 434,
+    "Race_long": "PLOTT HOUND"
+  },
+  {
+    "Race_court": 545,
+    "Race_long": "Podenco"
+  },
+  {
+    "Race_court": 546,
+    "Race_long": "Podenco Canario"
+  },
+  {
+    "Race_court": 277,
+    "Race_long": "PODENCO D'IBIZA"
+  },
+  {
+    "Race_court": 547,
+    "Race_long": "Podengo portugais"
+  },
+  {
+    "Race_court": 278,
+    "Race_long": "POINTER ANGLAIS"
+  },
+  {
+    "Race_court": 279,
+    "Race_long": "POITEVIN"
+  },
+  {
+    "Race_court": 606,
+    "Race_long": "Pomsky"
+  },
+  {
+    "Race_court": 280,
+    "Race_long": "PORCELAINE"
+  },
+  {
+    "Race_court": 548,
+    "Race_long": "Prazsky Krysarik"
+  },
+  {
+    "Race_court": 281,
+    "Race_long": "PUDELPOINTER"
+  },
+  {
+    "Race_court": 282,
+    "Race_long": "PULI"
+  },
+  {
+    "Race_court": 283,
+    "Race_long": "PUMI"
+  },
+  {
+    "Race_court": 436,
+    "Race_long": "RATIER DE PRAGUE"
+  },
+  {
+    "Race_court": 437,
+    "Race_long": "REDBONE COONHOUND"
+  },
+  {
+    "Race_court": 284,
+    "Race_long": "RETRIEVER A POIL BOUCLE"
+  },
+  {
+    "Race_court": 285,
+    "Race_long": "RETRIEVER A POIL PLAT"
+  },
+  {
+    "Race_court": 286,
+    "Race_long": "RETRIEVER DE LA BAIE DE CHESAPEAKE"
+  },
+  {
+    "Race_court": 287,
+    "Race_long": "RETRIEVER DE LA NOUVELLE ECOSSE"
+  },
+  {
+    "Race_court": 288,
+    "Race_long": "RETRIEVER DU LABRADOR"
+  },
+  {
+    "Race_court": 549,
+    "Race_long": "Rhodesian Ridgeback"
+  },
+  {
+    "Race_court": 289,
+    "Race_long": "ROTTWEILER"
+  },
+  {
+    "Race_court": 550,
+    "Race_long": "Royal Bourbon"
+  },
+  {
+    "Race_court": 551,
+    "Race_long": "Russkiy Toy"
+  },
+  {
+    "Race_court": 290,
+    "Race_long": "SAINT BERNARD"
+  },
+  {
+    "Race_court": 291,
+    "Race_long": "SALUKI"
+  },
+  {
+    "Race_court": 292,
+    "Race_long": "SAMOYEDE"
+  },
+  {
+    "Race_court": 438,
+    "Race_long": "SANSHU"
+  },
+  {
+    "Race_court": 590,
+    "Race_long": "Sarplaninac"
+  },
+  {
+    "Race_court": 293,
+    "Race_long": "SCHAPENDOES NEERLANDAIS"
+  },
+  {
+    "Race_court": 294,
+    "Race_long": "SCHIPPERKE"
+  },
+  {
+    "Race_court": 295,
+    "Race_long": "SCHNAUZER"
+  },
+  {
+    "Race_court": 296,
+    "Race_long": "SCHNAUZER GEANT"
+  },
+  {
+    "Race_court": 297,
+    "Race_long": "SCHNAUZER NAIN"
+  },
+  {
+    "Race_court": 552,
+    "Race_long": "Scottish Terrier"
+  },
+  {
+    "Race_court": 298,
+    "Race_long": "SEALYHAM TERRIER"
+  },
+  {
+    "Race_court": 299,
+    "Race_long": "SETTER ANGLAIS"
+  },
+  {
+    "Race_court": 300,
+    "Race_long": "SETTER GORDON"
+  },
+  {
+    "Race_court": 301,
+    "Race_long": "SETTER IRLANDAIS ROUGE"
+  },
+  {
+    "Race_court": 302,
+    "Race_long": "SETTER IRLANDAIS ROUGE & BLANC"
+  },
+  {
+    "Race_court": 303,
+    "Race_long": "SHAR PEI"
+  },
+  {
+    "Race_court": 304,
+    "Race_long": "SHIBA"
+  },
+  {
+    "Race_court": 553,
+    "Race_long": "Shiba-Inu"
+  },
+  {
+    "Race_court": 305,
+    "Race_long": "SHIH TZU"
+  },
+  {
+    "Race_court": 306,
+    "Race_long": "SHIKOKU"
+  },
+  {
+    "Race_court": 554,
+    "Race_long": "Silky Terrier"
+  },
+  {
+    "Race_court": 307,
+    "Race_long": "SKYE TERRIER"
+  },
+  {
+    "Race_court": 308,
+    "Race_long": "SLOUGHI"
+  },
+  {
+    "Race_court": 555,
+    "Race_long": "Slovensky Tatransky Cuvac"
+  },
+  {
+    "Race_court": 309,
+    "Race_long": "SMOUS DES PAYS BAS"
+  },
+  {
+    "Race_court": 310,
+    "Race_long": "SPINONE"
+  },
+  {
+    "Race_court": 311,
+    "Race_long": "SPITZ"
+  },
+  {
+    "Race_court": 556,
+    "Race_long": "Spitz Allemand"
+  },
+  {
+    "Race_court": 429,
+    "Race_long": "SPITZ CORÉEN"
+  },
+  {
+    "Race_court": 312,
+    "Race_long": "SPITZ DE NORRBOTTEN"
+  },
+  {
+    "Race_court": 313,
+    "Race_long": "SPITZ DES VISIGOTHS"
+  },
+  {
+    "Race_court": 314,
+    "Race_long": "SPITZ FINLANDAIS"
+  },
+  {
+    "Race_court": 315,
+    "Race_long": "SPITZ JAPONAIS"
+  },
+  {
+    "Race_court": 557,
+    "Race_long": "Spitz moyen"
+  },
+  {
+    "Race_court": 558,
+    "Race_long": "Spitz nain"
+  },
+  {
+    "Race_court": 559,
+    "Race_long": "Spitz-Loup"
+  },
+  {
+    "Race_court": 591,
+    "Race_long": "Springer Anglais"
+  },
+  {
+    "Race_court": 560,
+    "Race_long": "Stabyhoun"
+  },
+  {
+    "Race_court": 316,
+    "Race_long": "STAFFORDSHIRE BULL TERRIER"
+  },
+  {
+    "Race_court": 317,
+    "Race_long": "STAFFORDSHIRE TERRIER AMERICAIN"
+  },
+  {
+    "Race_court": 318,
+    "Race_long": "SUSSEX SPANIEL"
+  },
+  {
+    "Race_court": 561,
+    "Race_long": "Syndney Terrier"
+  },
+  {
+    "Race_court": 562,
+    "Race_long": "Tchiorny Terrier"
+  },
+  {
+    "Race_court": 319,
+    "Race_long": "TCHOUVATCH SLOVAQUE"
+  },
+  {
+    "Race_court": 320,
+    "Race_long": "TECKEL"
+  },
+  {
+    "Race_court": 439,
+    "Race_long": "TECKEL KANINCHEN"
+  },
+  {
+    "Race_court": 440,
+    "Race_long": "TECKEL NAIN À POIL DUR"
+  },
+  {
+    "Race_court": 441,
+    "Race_long": "TECKEL NAIN À POIL LONG"
+  },
+  {
+    "Race_court": 442,
+    "Race_long": "TECKEL NAIN À POIL RAS"
+  },
+  {
+    "Race_court": 443,
+    "Race_long": "TELOMIAN"
+  },
+  {
+    "Race_court": 321,
+    "Race_long": "TERRE NEUVE"
+  },
+  {
+    "Race_court": 322,
+    "Race_long": "TERRIER AUSTRALIEN"
+  },
+  {
+    "Race_court": 323,
+    "Race_long": "TERRIER AUSTRALIEN A POIL SOYEUX"
+  },
+  {
+    "Race_court": 324,
+    "Race_long": "TERRIER BRESILIEN"
+  },
+  {
+    "Race_court": 325,
+    "Race_long": "TERRIER D'AGREMENT ANGLAIS NOIR ET FEU"
+  },
+  {
+    "Race_court": 326,
+    "Race_long": "TERRIER DE BOSTON"
+  },
+  {
+    "Race_court": 327,
+    "Race_long": "TERRIER DE CHASSE ALLEMAND"
+  },
+  {
+    "Race_court": 563,
+    "Race_long": "Terrier de Manchester"
+  },
+  {
+    "Race_court": 328,
+    "Race_long": "TERRIER DU REVEREND RUSSELL"
+  },
+  {
+    "Race_court": 564,
+    "Race_long": "Terrier du Tibet"
+  },
+  {
+    "Race_court": 329,
+    "Race_long": "TERRIER ECOSSAIS"
+  },
+  {
+    "Race_court": 565,
+    "Race_long": "Terrier Gallois"
+  },
+  {
+    "Race_court": 330,
+    "Race_long": "TERRIER IRLANDAIS"
+  },
+  {
+    "Race_court": 331,
+    "Race_long": "TERRIER IRLANDAIS A POIL DOUX"
+  },
+  {
+    "Race_court": 332,
+    "Race_long": "TERRIER IRLANDAIS GLEN OF IMAAL"
+  },
+  {
+    "Race_court": 333,
+    "Race_long": "TERRIER JACK RUSSELL"
+  },
+  {
+    "Race_court": 334,
+    "Race_long": "TERRIER JAPONAIS"
+  },
+  {
+    "Race_court": 335,
+    "Race_long": "TERRIER KERRY BLUE"
+  },
+  {
+    "Race_court": 336,
+    "Race_long": "TERRIER NOIR RUSSE"
+  },
+  {
+    "Race_court": 337,
+    "Race_long": "TERRIER TCHEQUE"
+  },
+  {
+    "Race_court": 338,
+    "Race_long": "TERRIER TIBETAIN"
+  },
+  {
+    "Race_court": 339,
+    "Race_long": "TOSA"
+  },
+  {
+    "Race_court": 340,
+    "Race_long": "VOLPINO ITALIEN"
+  },
+  {
+    "Race_court": 341,
+    "Race_long": "WELSH CORGI CARDIGAN"
+  },
+  {
+    "Race_court": 342,
+    "Race_long": "WELSH CORGI PEMBROKE"
+  },
+  {
+    "Race_court": 343,
+    "Race_long": "WELSH SPRINGER SPANIEL"
+  },
+  {
+    "Race_court": 344,
+    "Race_long": "WELSH TERRIER"
+  },
+  {
+    "Race_court": 345,
+    "Race_long": "WEST HIGHLAND WHITE TERRIER"
+  },
+  {
+    "Race_court": 346,
+    "Race_long": "WHIPPET"
+  },
+  {
+    "Race_court": 566,
+    "Race_long": "Wolf Spitz (Keeshond)"
+  },
+  {
+    "Race_court": 347,
+    "Race_long": "YORKSHIRE TERRIER"
+  }
+]

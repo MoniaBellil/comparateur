@@ -1,0 +1,266 @@
+<div id="preloader" *ngIf="isLoading">
+    <img style="    max-width: 310px;
+        max-height: 320px;
+        margin-top: 150px;" src="assets/img/illustration/wait.gif" />
+    <p style="position: absolute;
+      top: 60%;
+      font-family: 'Source Sans Pro';
+      font-size: revert;
+      font-weight: bold;"> Veuillez patienter, nous recherchons les meilleures offres pour Vous </p>
+</div>
+<app-fixed-header *ngIf="!isLoading"></app-fixed-header>
+<div *ngIf="!isLoading" style="
+  text-align: center; margin-top: 50px; margin-bottom: 15%;">
+    <div class="illustration-img text-center">
+        <img class="small-image1 large-image1" src="assets/img/illustration/moto.png" alt="img">
+    </div>
+    <div style="height: 150px; overflow: hidden;">
+        <svg viewBox="0 0 500 200" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z"
+                style="stroke: none;fill: #cb218d27;"></path>
+        </svg>
+    </div>
+    <mat-vertical-stepper *ngIf="!isLoading" class="stepper" [linear]="isLinear" #stepper>
+        <mat-step [stepControl]="firstFormGroup">
+            <form class="left" [formGroup]="firstFormGroup">
+                <ng-template matStepLabel>Renseignez les informations de votre <br> projet et Adhérent principal
+                </ng-template>
+                <br>
+
+                <mat-form-field appearance="outline" style="margin-right: 10px;">
+                    <mat-label>Modèle</mat-label>
+                    <input type="text" matInput placeholder="Modèle de moto" formControlName="motoType" required>
+                    <mat-error>
+                        entrez le Modèle de votre moto
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field appearance="outline" style="margin-right: 10px;">
+                    <mat-label>Date d'acquisition</mat-label>
+                    <ng-template matStepLabel>Placeholder label 0</ng-template>
+                    <input matInput [matDatepicker]="picker2" formControlName="dateAcquisition" />
+                    <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+                    <mat-datepicker #picker2></mat-datepicker>
+                    <mat-error>
+                        Entrez la Date d'acquisition !
+                    </mat-error>
+                </mat-form-field>
+                <br>
+                <br>
+
+                <mat-form-field appearance="outline" style="margin-right: 10px;">
+                    <mat-label>Date 1ère mise en circulation</mat-label>
+                    <ng-template matStepLabel>Placeholder label 0</ng-template>
+                    <input matInput [matDatepicker]="picker3" formControlName="dateCirculation" />
+                    <mat-datepicker-toggle matSuffix [for]="picker3"></mat-datepicker-toggle>
+                    <mat-datepicker #picker3></mat-datepicker>
+                    <mat-error>
+                        Entrez la Date 1ère mise en circulation !
+                    </mat-error>
+                </mat-form-field>
+                <mat-form-field appearance="outline" style="margin-right: 10px;">
+                    <mat-label>Type de garage</mat-label>
+                    <mat-select style="font-size: 15px!important" name="countryReactiveVaraible"
+                        formControlName="typegarage" placeholder="Type de garage">
+                        <mat-option *ngFor="let garageType of garageType" [value]="garageType">
+                            {{garageType.text}}
+                        </mat-option>
+                    </mat-select>
+                    <mat-error>
+                        Entrez type de votre garage
+                    </mat-error>
+                </mat-form-field>
+                <br>
+                <br>
+                <mat-form-field appearance="outline" style="margin-right: 10px;">
+                    <mat-label>Lieu de garage</mat-label>
+                    <input type="number" matInput placeholder="lieu de garage" formControlName="postalCode" required>
+                    <mat-error>
+                        Entrez le code postal de votre garage!
+                    </mat-error>
+                </mat-form-field>
+
+
+                <mat-form-field appearance="outline" style="margin-right: 10px;">
+                    <mat-label>Usage du véhicule</mat-label>
+                    <mat-select style="font-size: 15px!important" name="countryReactiveVaraible"
+                        formControlName="motoUse" placeholder=" Usage du véhicule">
+                        <mat-option *ngFor="let motoUse of motoUse" [value]="motoUse">
+                            {{motoUse.text}}
+                        </mat-option>
+                    </mat-select>
+                    <mat-error>
+                        Entrez le Usage du véhicule!
+                    </mat-error>
+                </mat-form-field>
+                <br>
+                <br />
+                <mat-form-field appearance="outline" style="margin-right: 10px;">
+                    <mat-label> Titulaire de la carte grise </mat-label>
+                    <mat-select style="font-size: 15px!important " name="countryReactiveVaraible"
+                        formControlName="griscard" placeholder="Titulaire de la carte grise">
+                        <mat-option *ngFor="let griscard of griscard" [value]="griscard">
+                            {{griscard.text}}
+                        </mat-option>
+                    </mat-select>
+                    <mat-error>
+                        Titulaire de la carte grise
+                    </mat-error>
+                </mat-form-field>
+                <ng-template matStepLabel></ng-template>
+                <mat-form-field appearance="outline" style="margin-right: 10px;">
+                    <mat-label> Date d'effet souhaitée! </mat-label>
+                    <ng-template matStepLabel>Placeholder label 0</ng-template>
+                    <input [min]="minDate" matInput [matDatepicker]="picker1" formControlName="startDate" />
+                    <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+                    <mat-datepicker #picker1></mat-datepicker>
+                    <mat-error>
+                        Date d'effet souhaitée!
+                    </mat-error>
+                </mat-form-field>
+                <br>
+                <br>
+
+                <div>
+                    <ul class="btn-wrap">
+                        <li data-animation="fadeInRight" data-delay="1.4s">
+                            <button [disabled]="firstFormGroup.invalid" matStepperNext
+                                class="main-btn main-btn-4">Suivant</button>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </mat-step>
+        <mat-step [stepControl]="secondFormGroup">
+            <form class="left" [formGroup]="secondFormGroup">
+                <ng-template matStepLabel>Informations de Conducteur</ng-template>
+
+
+
+                <mat-form-field appearance="outline" style="margin-right: 10px;">
+                    <mat-label>Civilité</mat-label>
+                    <mat-select style="font-size: 15px!important " name="countryReactiveVaraible"
+                        formControlName="civilité" placeholder=" Usage du véhicule">
+                        <mat-option *ngFor="let civilite of civilite" [value]="civilite">
+                            {{civilite.text}}
+                        </mat-option>
+                    </mat-select>
+                    <mat-error>
+                        Choisir votre Civilité!
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field appearance="outline" style="margin-right: 10px;">
+                    <mat-label>date de naissance</mat-label>
+                    <ng-template matStepLabel></ng-template>
+                    <input [max]="minDate" matInput [matDatepicker]="picker4" formControlName="BirthDate" />
+                    <mat-datepicker-toggle matSuffix [for]="picker4"></mat-datepicker-toggle>
+                    <mat-datepicker #picker4></mat-datepicker>
+                    <mat-error>
+                        Entrez votre date de naissance!
+                    </mat-error>
+                </mat-form-field>
+
+                <div class="u-form-group u-form-select u-form-group-2">
+                    <label for="select-4191" class="u-label u-label-2">Possédez-vous un permis </label>
+                    <br>
+                    <mat-radio-group formControlName="havepermis" aria-label="Select an option">
+                        <mat-radio-button (click)='test()' value="true">Oui</mat-radio-button>
+                        <mat-radio-button (click)='test()' style="margin-left: 20px;" value="false">Non
+                        </mat-radio-button>
+                    </mat-radio-group>
+                </div>
+                <br>
+                <br>
+                <mat-form-field *ngIf="this.secondFormGroup.value.havepermis == 'true'" appearance="outline"
+                    style="margin-right: 10px;">
+                    <mat-label>Type de permis</mat-label>
+                    <mat-select style="font-size: 15px!important " name="countryReactiveVaraible"
+                        formControlName="permis" placeholder=" Usage du véhicule">
+                        <mat-option *ngFor="let permis of permis" [value]="permis">
+                            {{permis.text}}
+                        </mat-option>
+                    </mat-select>
+                    <mat-error>
+                        Choisir votre permis!
+                    </mat-error>
+                </mat-form-field>
+
+
+                <mat-form-field *ngIf="this.secondFormGroup.value.havepermis == 'true'" appearance="outline"
+                    style="margin-right: 10px;">
+                    <mat-label>date de permis</mat-label>
+                    <ng-template matStepLabel></ng-template>
+                    <input [max]="minDate" matInput [matDatepicker]="picker5" formControlName="permiDate" />
+                    <mat-datepicker-toggle matSuffix [for]="picker5"></mat-datepicker-toggle>
+                    <mat-datepicker #picker5></mat-datepicker>
+                    <mat-error>
+                        Entrez la date de permis!
+                    </mat-error>
+                </mat-form-field>
+                <ul class="btn-wrap">
+                    <li data-animation="fadeInLeft" data-delay="1.2s">
+                        <button [disabled]="secondFormGroup.invalid" matStepperNext
+                            class="main-btn main-btn-4">Suivant</button>
+                    </li>
+                    <br>
+                    <li data-animation="fadeInRight" data-delay="1.4s">
+                        <button matStepperPrevious class="main-btn main-btn-2">Retour</button>
+                    </li>
+                </ul>
+            </form>
+        </mat-step>
+
+        <mat-step [stepControl]="lastFormGroup">
+            <form class="left" [formGroup]="lastFormGroup">
+                <ng-template matStepLabel>Informations personnelles</ng-template>
+                <mat-form-field appearance="outline" style="margin-right: 10px;">
+                    <mat-label>Nom</mat-label>
+                    <input type="text" matInput placeholder="votre nom" formControlName="firstname" required>
+                    <mat-error>
+                        entrez votre nom
+                    </mat-error>
+                </mat-form-field>
+                <mat-form-field appearance="outline" style="margin-right: 10px;">
+                    <mat-label>Prénom</mat-label>
+                    <input type="text" matInput placeholder="votre prénom" formControlName="lastname" required>
+                    <mat-error>
+                        Entrez votre prénom
+                    </mat-error>
+                </mat-form-field>
+                <br>
+                <mat-form-field appearance="outline" style="margin-right: 10px;">
+                    <mat-label>adresse email</mat-label>
+                    <input type="text" matInput placeholder="adresse email" formControlName="email" required>
+                    <mat-error>
+                        Entrez votre adresse email
+                    </mat-error>
+                </mat-form-field>
+                <mat-form-field appearance="outline" style="margin-right: 10px;">
+                    <mat-label>Téléphone</mat-label>
+                    <input type="text" matInput placeholder="numéro de téléphone" formControlName="phonenumber"
+                        required>
+                    <mat-error>
+                        entrez votre numéro de téléphone
+                    </mat-error>
+                </mat-form-field>
+                <br>
+                <mat-checkbox style="margin-top: 1%;" formControlName="callMe">autoriser Va-Chercher.com à m'appeler par
+                    téléphone</mat-checkbox><br>
+                <br>
+                <ul class="btn-wrap">
+                    <li data-animation="fadeInLeft" data-delay="1.2s">
+                        <button [disabled]="lastFormGroup.invalid" matStepperNext (click)="checkPostalCode()"
+                            class="main-btn main-btn-4">Chercher</button>
+                    </li>
+                    <br>
+                    <li data-animation="fadeInRight" data-delay="1.4s">
+                        <button matStepperPrevious class="main-btn main-btn-2">Retour</button>
+                    </li>
+                </ul>
+            </form>
+        </mat-step>
+    </mat-vertical-stepper>
+</div>
+
+<app-footer *ngIf="!isLoading" [layout]=""></app-footer>

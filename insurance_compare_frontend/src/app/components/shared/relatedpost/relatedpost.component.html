@@ -1,0 +1,21 @@
+<div class="related-post">
+    <h3 class="title">Related Post</h3>
+    <div class="latest-post-loop row ">
+        <div class="col-lg-6 col-md-6 col-10 col-tiny-12" *ngFor="let item of blogpost | slice:0:2">
+            <div class="latest-post-box-two">
+                <div class="post-thumb-wrap">
+                    <div class="post-thumb bg-img-c" [style.background-image]="'url('+item.image+')'"></div>
+                    <span class="post-date"><i class="far fa-calendar-alt"></i>{{item.postdate}}</span>
+                </div>
+                <div class="post-desc">
+                    <h3 class="title">
+                        <a routerLink="/blog-details/{{item.id}}"> {{item.title}} </a>
+                    </h3>
+                    <a routerLink="/blog-details/{{item.id}}" class="post-link">
+                        Learn More <i class="far fa-long-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

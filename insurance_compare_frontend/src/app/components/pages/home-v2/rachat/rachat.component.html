@@ -1,0 +1,416 @@
+<div id="preloader" *ngIf="isLoading">
+  <img style="    max-width: 310px;
+        max-height: 320px;
+        margin-top: 150px;" src="assets/img/illustration/wait.gif" />
+  <p style="position: absolute;
+      top: 60%;
+      font-family: 'Source Sans Pro';
+      font-size: revert;
+      font-weight: bold;"> Veuillez patienter, nous recherchons les meilleures offres pour Vous </p>
+</div>
+<app-fixed-header *ngIf="!isLoading"></app-fixed-header>
+<div *ngIf="!isLoading" style="
+  text-align: center; margin-top: 50px; margin-bottom: 15%;">
+  <div class="illustration-img text-center">
+    <img class="small-image1 large-image1" src="assets/img/illustration/rachat.png" alt="img">
+  </div>
+
+  <div style="height: 150px; overflow: hidden;">
+    <svg viewBox="0 0 500 200" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+      <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z"
+        style="stroke: none;fill: #cb218d27;"></path>
+    </svg>
+  </div>
+  <mat-vertical-stepper *ngIf="!isLoading" class="stepper" [linear]="isLinear" #stepper>
+    <mat-step [stepControl]="firstFormGroup">
+      <form class="left" [formGroup]="firstFormGroup">
+        <ng-template matStepLabel>Votre profil
+        </ng-template><br>
+        <mat-form-field appearance="outline" style="margin-right: 10px; width: 400px;">
+          <mat-label>Logement</mat-label>
+          <mat-select (selectionChange)="change($event)" name="countryReactiveVaraible" formControlName="logement"
+            placeholder="logement">
+            <mat-option *ngFor="let logement of Logement" [value]="logement">
+              {{logement.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            Entrez le type de votre logement !
+          </mat-error>
+        </mat-form-field>
+        <br>
+
+        <mat-form-field *ngIf='this.show2 == true' appearance="outline" style="margin-right: 10px;">
+          <mat-label>Montant du loyer</mat-label>
+          <input type="number" matInput placeholder="Ex: 800 €" formControlName="montant">
+          <mat-error>
+            entrez le Montant du loyer
+          </mat-error>
+        </mat-form-field>
+        <div *ngIf='this.show1 == true'>
+          <mat-form-field appearance="outline" style="margin-right: 10px;">
+            <mat-label>Valeur de votre immobilier</mat-label>
+            <input type="number" matInput placeholder="Ex : 200 000 €" formControlName="immobilier">
+            <mat-error>
+              entrez le Valeur de votre bien immobilier
+            </mat-error>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" style="margin-right: 10px;">
+            <mat-label>Nombre de crédits immobiliers </mat-label>
+            <mat-select (selectionChange)="changeNumber($event)" name="countryReactiveVaraible"
+              formControlName="immobiliers" placeholder="Nombre de crédits immobiliers">
+              <mat-option *ngFor="let immobiliers of immobiliers" [value]="immobiliers">
+                {{immobiliers.text}}
+              </mat-option>
+            </mat-select>
+            <mat-error>
+              Entrez le Nombre de crédits immobiliers!
+            </mat-error>
+          </mat-form-field>
+
+          <div *ngIf='this.show3 == true'>
+            <br>
+            <br>
+            <mat-form-field appearance="outline" style="margin-right: 10px;">
+              <mat-label>Mensualités Crédit(s) immobilier(s)</mat-label>
+              <input type="number" matInput placeholder="Ex: 800 €" formControlName="creditImmobilier">
+              <mat-error>
+                entrez le Crédit(s) immobilier(s)
+              </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="outline" style="margin-right: 10px;">
+              <mat-label>Capital restant dû immobilier </mat-label>
+              <input type="number" matInput placeholder="Ex: 150 000 €" formControlName="capitalRestant">
+              <mat-error>
+                entrez le Capital restant dû immobilier
+              </mat-error>
+            </mat-form-field>
+          </div>
+        </div>
+        <br>
+        <mat-form-field appearance="outline" style="margin-right: 10px; width: 400px;">
+          <mat-label>Nombre de crédits consommation</mat-label>
+          <mat-select (selectionChange)="changeConsommation($event)" name="countryReactiveVaraible"
+            formControlName="credit" placeholder="Nombre de crédits consommation">
+            <mat-option *ngFor="let credit of credit" [value]="credit">
+              {{credit.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            Entrez le Nombre de crédits consommation!
+          </mat-error>
+        </mat-form-field>
+        <br>
+        <div *ngIf='this.show4 == true'>
+          <br>
+          <br>
+          <mat-form-field appearance="outline" style="margin-right: 10px;">
+            <mat-label>Mensualités Crédit(s) conso</mat-label>
+            <input type="number" matInput placeholder="Ex: 400 €" formControlName="creditConso">
+            <mat-error>
+              entrez le Mensualités Crédit(s) conso
+            </mat-error>
+          </mat-form-field>
+          <mat-form-field appearance="outline" style="margin-right: 10px;">
+            <mat-label>Capital restant dû conso </mat-label>
+            <input type="number" matInput placeholder="Ex: 3 000 €" formControlName="creditResto">
+            <mat-error>
+              entrez le Capital restant dû conso
+            </mat-error>
+          </mat-form-field>
+        </div>
+        <br />
+        <div>
+          <ul class="btn-wrap">
+            <li data-animation="fadeInRight" data-delay="1.4s">
+              <button [disabled]="firstFormGroup.invalid" matStepperNext class="main-btn main-btn-4">Suivant</button>
+            </li>
+          </ul>
+        </div>
+      </form>
+    </mat-step>
+
+    <mat-step [stepControl]="secondFormGroup">
+      <form class="left" [formGroup]="secondFormGroup">
+        <ng-template matStepLabel>rachat de crédit</ng-template>
+
+
+        <mat-form-field appearance="outline" style="margin-right: 10px;">
+          <mat-label>Déjà fait un rachat de crédit ?</mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="rachatdecredit"
+            placeholder="Nombre de crédits immobiliers">
+            <mat-option *ngFor="let rachatdecredit of rachatdecredit" [value]="rachatdecredit">
+              {{rachatdecredit.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            Déjà fait un rachat de crédit ?
+          </mat-error>
+        </mat-form-field>
+        <br>
+        <p>Trésorerie souhaitée</p>
+        <p>Somme d'argent supplémentaire souhaitée pour réaliser un projet (achat voiture, travaux...)</p>
+        <br>
+        <mat-form-field appearance="outline" style="margin-right: 10px;">
+          <mat-label>Trésorerie</mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="treosorie" placeholder="Trésorerie">
+            <mat-option *ngFor="let treosorie of treosorie" [value]="treosorie">
+              {{treosorie.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            choisir le Trésorerie souhaitée!
+          </mat-error>
+        </mat-form-field>
+        <br>
+        <div class="u-form-group u-form-select u-form-group-2">
+          <label for="select-4191" class="u-label u-label-2">Fiché(e) Banque de France ?</label>
+          <br>
+          <mat-radio-group formControlName="ficher" aria-label="Select an option">
+            <mat-radio-button value="true">Oui</mat-radio-button>
+            <mat-radio-button style="margin-left: 20px;" value="false">Non</mat-radio-button>
+          </mat-radio-group>
+        </div>
+        <br>
+        <mat-form-field appearance="outline" style="margin-right: 10px;">
+          <mat-label>Votre statut professionnel</mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="statut" placeholder="statut">
+            <mat-option *ngFor="let statut of statut" [value]="statut">
+              {{statut.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            choisir Votre statut professionnel!
+          </mat-error>
+        </mat-form-field>
+        <ul class="btn-wrap">
+          <li data-animation="fadeInLeft" data-delay="1.2s">
+            <button [disabled]="secondFormGroup.invalid" matStepperNext class="main-btn main-btn-4">Suivant</button>
+          </li>
+          <br>
+          <li data-animation="fadeInRight" data-delay="1.4s">
+            <button matStepperPrevious class="main-btn main-btn-2">Retour</button>
+          </li>
+        </ul>
+      </form>
+    </mat-step>
+
+    <mat-step [stepControl]="therdFormGroup">
+      <form class="left" [formGroup]="therdFormGroup">
+        <ng-template matStepLabel>Votre statut </ng-template>
+
+        <div class="u-form-group u-form-select u-form-group-2">
+          <label for="select-4191" class="u-label u-label-2">Avez-vous un(e) conjoint(e) ou un co-emprunteur ? </label>
+          <br>
+          <mat-radio-group formControlName="emprunteur" aria-label="Select an option">
+            <mat-radio-button (change)="radioChange($event)" value="true">Oui</mat-radio-button>
+            <mat-radio-button (change)="radioChange($event)" style="margin-left: 20px;" value="false">Non
+            </mat-radio-button>
+          </mat-radio-group>
+        </div>
+        <br>
+        <div *ngIf='this.show5 == true'>
+          <br>
+          <div class="u-form-group u-form-select u-form-group-2">
+            <label for="select-4191" class="u-label u-label-2">Civilité du co-emprunteur</label>
+            <br>
+            <mat-radio-group formControlName="sexeEmpr" aria-label="Select an option">
+              <mat-radio-button value="Homme">Homme</mat-radio-button>
+              <mat-radio-button style="margin-left: 20px;" value="Femme">Femme</mat-radio-button>
+            </mat-radio-group>
+          </div>
+          <br>
+          <br>
+          <mat-form-field appearance="outline" style="margin-right: 10px;">
+            <mat-label>Nom du co-emprunteur</mat-label>
+            <input type="text" matInput placeholder="ex: Dupont" formControlName="firstNameEmpr">
+            <mat-error>
+              Nom du co-emprunteur
+            </mat-error>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" style="margin-right: 10px;">
+            <mat-label>Prénom du co-emprunteur</mat-label>
+            <input type="text" matInput placeholder="ex: Allen" formControlName="lastNameEmpr">
+            <mat-error>
+              Prénom du co-emprunteur
+            </mat-error>
+          </mat-form-field>
+          <br>
+          <br>
+          <mat-form-field appearance="outline" style="margin-right: 10px; width: 490px;">
+            <mat-label>Date de naissance de votre co-emprunteur </mat-label>
+            <input matInput [matDatepicker]="picker1" formControlName="birthDateEmpr" />
+            <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+            <mat-datepicker #picker1></mat-datepicker>
+            <mat-error>
+              Entrez Date de naissance de votre co-emprunteur
+            </mat-error>
+          </mat-form-field>
+          <br>
+          <mat-form-field appearance="outline" style="margin-right: 10px; width: 490px;">
+            <mat-label>Statut professionnel du conjoint(e) ou co-emprunteur </mat-label>
+            <mat-select name="countryReactiveVaraible" formControlName="statutEmpr" placeholder="statut du conjoint(e)">
+              <mat-option *ngFor="let statut of statut" [value]="statut">
+                {{statut.text}}
+              </mat-option>
+            </mat-select>
+            <mat-error>
+              choisir le Statut du conjoint(e)!
+            </mat-error>
+          </mat-form-field>
+          <br>
+          <mat-form-field appearance="outline" style="margin-right: 10px; width: 490px;">
+            <mat-label>Votre conjoint(e) : Revenus mensuels nets avant impôt </mat-label>
+            <input type="number" matInput placeholder="Ex: 1500 €" formControlName="revenuConjoin">
+            <mat-error>
+              entrez le Revenus mensuels nets 
+            </mat-error>
+          </mat-form-field>
+
+        </div>
+        <mat-form-field appearance="outline" style="margin-right: 10px; width: 490px;">
+          <mat-label>Vous : Revenus mensuels nets avant impôt </mat-label>
+          <input type="number" matInput placeholder="Ex: 1500 €" formControlName="revenuvous">
+          <mat-error>
+            entrez le Revenus mensuels nets
+          </mat-error>
+        </mat-form-field>
+        <br>
+        <mat-form-field appearance="outline" style="margin-right: 10px; width: 490px;">
+          <mat-label>Autres revenus mensuels pour le foyer </mat-label>
+          <input type="number" matInput placeholder="Ex: 300 €" formControlName="foyer">
+          <mat-error>
+            (ex: prime, pension, allocations...)
+          </mat-error>
+        </mat-form-field>
+
+        <ul class="btn-wrap">
+          <li data-animation="fadeInLeft" data-delay="1.2s">
+            <button [disabled]="therdFormGroup.invalid" matStepperNext class="main-btn main-btn-4">Suivant</button>
+          </li>
+          <br>
+          <li data-animation="fadeInRight" data-delay="1.4s">
+            <button matStepperPrevious class="main-btn main-btn-2">Retour</button>
+          </li>
+        </ul>
+      </form>
+    </mat-step>
+
+    <mat-step [stepControl]="fourFormGroup">
+      <form class="left" [formGroup]="fourFormGroup">
+        <ng-template matStepLabel>Vos coordonnées</ng-template>
+    
+
+        <br>
+        <ng-template matStepLabel></ng-template>
+        <mat-form-field appearance="outline" style="margin-right: 10px;">
+          <mat-label>Date de naissance</mat-label>
+          <ng-template matStepLabel>Placeholder label 0</ng-template>
+          <input  matInput [matDatepicker]="picker2"
+            formControlName="birthDate" />
+          <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+          <mat-datepicker #picker2></mat-datepicker>
+          <mat-error>
+            Entrez votre date de naissance !
+         </mat-error>
+        </mat-form-field>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>Situation</mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="situation" placeholder="Situation">
+            <mat-option *ngFor="let situation of situation" [value]="situation">
+              {{situation.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            Entrez votre situation !
+         </mat-error>
+        </mat-form-field>
+        <br />
+        <br />
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label> Nombre enfant</mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="enfant" placeholder="enfant">
+            <mat-option *ngFor="let enfant of Enfant" [value]="enfant">
+              {{enfant.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            Choisir le nombre d'enfant !
+         </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="outline"  style="margin-right: 10px;">
+          <mat-label>code postal</mat-label>
+          <input type="number" matInput placeholder="Code Postal" formControlName="postalCode" required>
+          <mat-error>
+            Entrez votre code postal!
+          </mat-error>
+        </mat-form-field>
+        <br>
+        <br>
+        <ul class="btn-wrap">
+          <li data-animation="fadeInLeft" data-delay="1.2s">
+            <button [disabled]="fourFormGroup.invalid" matStepperNext 
+              class="main-btn main-btn-4">Suivant</button>
+          </li>
+          <br>
+          <li data-animation="fadeInRight" data-delay="1.4s">
+            <button matStepperPrevious class="main-btn main-btn-2">Retour</button>
+          </li>
+        </ul>
+      </form>
+    </mat-step>
+    
+    <mat-step [stepControl]="lastFormGroup">
+      <form class="left" [formGroup]="lastFormGroup">
+        <ng-template matStepLabel>Informations personnelles</ng-template>
+        <mat-form-field appearance="outline" style="margin-right: 10px;">
+          <mat-label>Nom</mat-label>
+          <input type="text" matInput placeholder="votre nom" formControlName="firstname" required>
+          <mat-error>
+            entrez votre nom
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="outline" style="margin-right: 10px;">
+          <mat-label>Prénom</mat-label>
+          <input type="text" matInput placeholder="votre prénom" formControlName="lastname" required>
+          <mat-error>
+            Entrez votre prénom
+          </mat-error>
+        </mat-form-field>
+        <br>
+        <mat-form-field appearance="outline" style="margin-right: 10px;">
+          <mat-label>adresse email</mat-label>
+          <input type="text" matInput placeholder="adresse email" formControlName="email" required>
+          <mat-error>
+            Entrez votre adresse email
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="outline" style="margin-right: 10px;">
+          <mat-label>Téléphone</mat-label>
+          <input type="text" matInput placeholder="numéro de téléphone" formControlName="phonenumber" required>
+          <mat-error>
+            entrez votre numéro de téléphone
+          </mat-error>
+        </mat-form-field>
+        <br>
+        <mat-checkbox style="margin-top: 1%;" formControlName="callMe">autoriser Va-Chercher.com à m'appeler par
+          téléphone</mat-checkbox><br>
+        <br>
+        <ul class="btn-wrap">
+          <li data-animation="fadeInLeft" data-delay="1.2s">
+            <button [disabled]="lastFormGroup.invalid" matStepperNext (click)="checkPostalCode()"
+              class="main-btn main-btn-4">Chercher</button>
+          </li>
+          <br>
+          <li data-animation="fadeInRight" data-delay="1.4s">
+            <button matStepperPrevious class="main-btn main-btn-2">Retour</button>
+          </li>
+        </ul>
+      </form>
+    </mat-step>
+  </mat-vertical-stepper>
+</div>
+
+<app-footer *ngIf="!isLoading" [layout]=""></app-footer>

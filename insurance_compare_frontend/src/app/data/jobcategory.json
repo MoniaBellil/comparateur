@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "title":"It Solutions",
+        "icon":"flaticon-computer"
+    },
+    {
+        "id":2,
+        "title":"It Consulting",
+        "icon":"flaticon-creative"
+    },
+    {
+        "id":3,
+        "title":"Product Design",
+        "icon":"flaticon-idea"
+    },
+    {
+        "id":4,
+        "title":"Server Security",
+        "icon":"flaticon-fingerprint"
+    },
+    {
+        "id":5,
+        "title":"It Management",
+        "icon":"flaticon-shield"
+    },
+    {
+        "id":6,
+        "title":"UX/UI Strategy",
+        "icon":"flaticon-training"
+    },
+    {
+        "id":7,
+        "title":"It Marketing",
+        "icon":"flaticon-analysis"
+    },
+    {
+        "id":8,
+        "title":"Bank & Finance",
+        "icon":"flaticon-piggy-bank"
+    }
+]

@@ -1,0 +1,59 @@
+<header class="sticky-header" id="can-sticky">
+    <!-- Header Menu  -->
+    <div class="header-nav">
+        <div class="container-fluid container-1600">
+            <div class="nav-container" [ngClass]="visible ? '' : 'breakpoint-on'" (window:resize)="detectHeader()">
+                <!-- Site Logo -->
+                <div class="site-logo">
+                    <a routerLink="/"><img src="assets/img/logo.png" alt="logo"></a>
+                </div>
+
+                <!-- Main Menu -->
+                <div class="nav-menu d-lg-flex align-items-center" [ngClass]="navmethod ? '' : 'menu-on'">
+
+                    <!-- Navbar Close Icon -->
+                    <div class="navbar-close">
+                        <div class="cross-wrap" (click)="toggleNav()"><span></span><span></span></div>
+                    </div>
+
+                    <!-- Mneu Items -->
+                    <div class="menu-items">
+                        <ul>
+                            <li class="menu-item" [ngClass]="item.child == true ? 'has-submemu' : ''"
+                                *ngFor="let item of navigation">
+                                <a href="javascript:void(0)" (click)="trigger(item)" *ngIf="item.child">{{item.linkText}}</a>
+                                <a routerLink="{{item.link}}" *ngIf="!item.child">{{item.linkText}}</a>
+                                <ul class="submenu" *ngIf="item.child" [ngClass]="item.open ? 'd-block' : ''">
+                                    <li class="menu-item" [ngClass]="item.child == true ? 'has-submemu' : ''"
+                                        *ngFor="let item of item.submenu">
+                                        <a href="javascript:void(0)" (click)="trigger(item)" *ngIf="item.child">{{item.linkText}}</a>
+                                        <a routerLink="{{item.link}}" *ngIf="!item.child">{{item.linkText}}</a>
+                                        <ul class="submenu" *ngIf="item.child" [ngClass]="item.open ? 'd-block' : ''">
+                                            <li class="menu-item" *ngFor="let item of item.submenu">
+                                                <a routerLink="{{item.link}}">{{item.linkText}}</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Pushed Item -->
+                    <div class="nav-pushed-item"></div>
+                </div>
+
+                <!-- Navbar Extra  -->
+                <div class="navbar-extra d-lg-block d-flex align-items-center">
+                    <!-- Navbtn -->
+                    <div class="navbar-btn nav-push-item">
+                        <a class="main-btn main-btn-3" routerLink="/contact">Consulting Now</a>
+                    </div>
+                    <!-- Navbar Toggler -->
+                    <div class="navbar-toggler" [ngClass]="navmethod ? '' : 'active'" (click)="toggleNav()">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

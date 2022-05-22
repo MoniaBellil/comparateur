@@ -1,0 +1,366 @@
+[
+  {
+    "Race_court": 348,
+    "Race_long": "ABYSSIN"
+  },
+  {
+    "Race_court": 597,
+    "Race_long": "Abyssin"
+  },
+  {
+    "Race_court": 592,
+    "Race_long": "American Bobtail à poil court"
+  },
+  {
+    "Race_court": 593,
+    "Race_long": "American Bobtail à poil long"
+  },
+  {
+    "Race_court": 349,
+    "Race_long": "AMERICAN CURL À POIL COURT ET À POIL MI-LONG"
+  },
+  {
+    "Race_court": 350,
+    "Race_long": "AMERICAN SHORTHAIR"
+  },
+  {
+    "Race_court": 351,
+    "Race_long": "AMERICAN WIREHAIR"
+  },
+  {
+    "Race_court": 352,
+    "Race_long": "ANGORA TURC"
+  },
+  {
+    "Race_court": 594,
+    "Race_long": "Angora Turc"
+  },
+  {
+    "Race_court": 353,
+    "Race_long": "ASIAN"
+  },
+  {
+    "Race_court": 354,
+    "Race_long": "BALINAIS"
+  },
+  {
+    "Race_court": 595,
+    "Race_long": "Balinais"
+  },
+  {
+    "Race_court": 355,
+    "Race_long": "BENGAL"
+  },
+  {
+    "Race_court": 356,
+    "Race_long": "BLEU RUSSE SOUS L'APPELLATION « RUSSE »"
+  },
+  {
+    "Race_court": 357,
+    "Race_long": "BOBTAIL AMÉRICAIN SOUS L'APPELLATION « AMERICAN BOBTAIL », À POIL COURT ET À POIL MI-LONG"
+  },
+  {
+    "Race_court": 359,
+    "Race_long": "BOBTAIL DES KOURILES SOUS L'APPELLATION « KURILIAN BOBTAIL », À POIL COURT ET À POIL MI-LONG"
+  },
+  {
+    "Race_court": 358,
+    "Race_long": "BOBTAIL JAPONAIS SOUS L'APPELLATION « JAPANESE BOBTAIL », À POIL COURT ET À POIL MI-LONG"
+  },
+  {
+    "Race_court": 360,
+    "Race_long": "BOMBAY"
+  },
+  {
+    "Race_court": 362,
+    "Race_long": "BRITISH LONGHAIR"
+  },
+  {
+    "Race_court": 361,
+    "Race_long": "BRITISH SHORTHAIR"
+  },
+  {
+    "Race_court": 363,
+    "Race_long": "BURMESE AMÉRICAIN"
+  },
+  {
+    "Race_court": 364,
+    "Race_long": "BURMESE ANGLAIS"
+  },
+  {
+    "Race_court": 365,
+    "Race_long": "BURMILLA"
+  },
+  {
+    "Race_court": 366,
+    "Race_long": "CALIFORNIAN REX"
+  },
+  {
+    "Race_court": 367,
+    "Race_long": "CALIFORNIAN SPANGLED (NRC)"
+  },
+  {
+    "Race_court": 368,
+    "Race_long": "CEYLAN"
+  },
+  {
+    "Race_court": 369,
+    "Race_long": "CHARTREUX"
+  },
+  {
+    "Race_court": 445,
+    "Race_long": "CHAT CHINOIS"
+  },
+  {
+    "Race_court": 446,
+    "Race_long": "CHAT DE CAFRERIE"
+  },
+  {
+    "Race_court": 447,
+    "Race_long": "CHAT DE PALLAS"
+  },
+  {
+    "Race_court": 605,
+    "Race_long": "Chat des Forets Norvegiennes"
+  },
+  {
+    "Race_court": 450,
+    "Race_long": "CHAT FORESTIER"
+  },
+  {
+    "Race_court": 448,
+    "Race_long": "CHAT HARET"
+  },
+  {
+    "Race_court": 449,
+    "Race_long": "CHAT JAUNE"
+  },
+  {
+    "Race_court": 598,
+    "Race_long": "Chat nu"
+  },
+  {
+    "Race_court": 604,
+    "Race_long": "Chat Sauvage Europe"
+  },
+  {
+    "Race_court": 599,
+    "Race_long": "Chat Tigre"
+  },
+  {
+    "Race_court": 600,
+    "Race_long": "Chat Turc Van"
+  },
+  {
+    "Race_court": 370,
+    "Race_long": "CHAUSIE (NRC)"
+  },
+  {
+    "Race_court": 371,
+    "Race_long": "CORNISH REX"
+  },
+  {
+    "Race_court": 456,
+    "Race_long": "CROISE"
+  },
+  {
+    "Race_court": 372,
+    "Race_long": "CYMRIC"
+  },
+  {
+    "Race_court": 373,
+    "Race_long": "DEVON REX"
+  },
+  {
+    "Race_court": 374,
+    "Race_long": "DONSKOY"
+  },
+  {
+    "Race_court": 375,
+    "Race_long": "EUROPÉEN"
+  },
+  {
+    "Race_court": 376,
+    "Race_long": "EXOTIC SHORTHAIR"
+  },
+  {
+    "Race_court": 377,
+    "Race_long": "GERMAN REX"
+  },
+  {
+    "Race_court": 378,
+    "Race_long": "HAVANA BROWN"
+  },
+  {
+    "Race_court": 379,
+    "Race_long": "HIGHLAND FOLD"
+  },
+  {
+    "Race_court": 380,
+    "Race_long": "HIGHLAND STRAIGHT"
+  },
+  {
+    "Race_court": 601,
+    "Race_long": "Javanais"
+  },
+  {
+    "Race_court": 451,
+    "Race_long": "KHAO MANEE"
+  },
+  {
+    "Race_court": 381,
+    "Race_long": "KORAT"
+  },
+  {
+    "Race_court": 382,
+    "Race_long": "LAPERM À POIL COURT ET À POIL MI-LONG"
+  },
+  {
+    "Race_court": 602,
+    "Race_long": "Lynx Domestique"
+  },
+  {
+    "Race_court": 383,
+    "Race_long": "MAINE COON"
+  },
+  {
+    "Race_court": 384,
+    "Race_long": "MANDARIN"
+  },
+  {
+    "Race_court": 385,
+    "Race_long": "MANX"
+  },
+  {
+    "Race_court": 453,
+    "Race_long": "MARGAY"
+  },
+  {
+    "Race_court": 388,
+    "Race_long": "MAU ARABE"
+  },
+  {
+    "Race_court": 386,
+    "Race_long": "MAU ÉGYPTIEN"
+  },
+  {
+    "Race_court": 387,
+    "Race_long": "MUNCHKIN À POIL COURT ET À POIL MI-LONG"
+  },
+  {
+    "Race_court": 389,
+    "Race_long": "NEBELUNG"
+  },
+  {
+    "Race_court": 390,
+    "Race_long": "NORVÉGIEN"
+  },
+  {
+    "Race_court": 391,
+    "Race_long": "OCICAT"
+  },
+  {
+    "Race_court": 454,
+    "Race_long": "OJOS AZULES"
+  },
+  {
+    "Race_court": 392,
+    "Race_long": "ORIENTAL"
+  },
+  {
+    "Race_court": 393,
+    "Race_long": "PERSAN"
+  },
+  {
+    "Race_court": 394,
+    "Race_long": "PETERBALD"
+  },
+  {
+    "Race_court": 395,
+    "Race_long": "PIXIE-BOB À POIL COURT ET À POIL LONG"
+  },
+  {
+    "Race_court": 455,
+    "Race_long": "RAGAMUFFIN"
+  },
+  {
+    "Race_court": 396,
+    "Race_long": "RAGDOLL"
+  },
+  {
+    "Race_court": 397,
+    "Race_long": "SACRÉ DE BIRMANIE"
+  },
+  {
+    "Race_court": 398,
+    "Race_long": "SAVANNAH (NRC)"
+  },
+  {
+    "Race_court": 399,
+    "Race_long": "SCOTTISH FOLD"
+  },
+  {
+    "Race_court": 596,
+    "Race_long": "Scottish Fold Long Hair"
+  },
+  {
+    "Race_court": 400,
+    "Race_long": "SELKIRK REX À POIL COURT OU À POIL MI-LONG"
+  },
+  {
+    "Race_court": 401,
+    "Race_long": "SELKIRK STRAIGHT (NRC)"
+  },
+  {
+    "Race_court": 402,
+    "Race_long": "SIAMOIS"
+  },
+  {
+    "Race_court": 403,
+    "Race_long": "SIBÉRIEN"
+  },
+  {
+    "Race_court": 404,
+    "Race_long": "SINGAPURA"
+  },
+  {
+    "Race_court": 603,
+    "Race_long": "Skogkatt"
+  },
+  {
+    "Race_court": 405,
+    "Race_long": "SNOWSHOE"
+  },
+  {
+    "Race_court": 406,
+    "Race_long": "SOKOKÉ"
+  },
+  {
+    "Race_court": 407,
+    "Race_long": "SOMALI"
+  },
+  {
+    "Race_court": 408,
+    "Race_long": "SPHYNX"
+  },
+  {
+    "Race_court": 409,
+    "Race_long": "THAÏ"
+  },
+  {
+    "Race_court": 410,
+    "Race_long": "TIFFANY"
+  },
+  {
+    "Race_court": 411,
+    "Race_long": "TONKINOIS À POIL COURT OU À POIL MI-LONG"
+  },
+  {
+    "Race_court": 412,
+    "Race_long": "TURC DE VAN"
+  },
+  {
+    "Race_court": 413,
+    "Race_long": "YORK CHOCOLAT"
+  }
+]

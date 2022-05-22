@@ -1,0 +1,342 @@
+[
+    {
+        "id": 1,
+        "icon": "fal fa-first-aid",
+        "shadowicon": "assets/img/icons/01.png",
+        "img": "assets/img/feature/01.jpg",
+        "title": "Assurance Santé",
+        "categorie": "personne",
+        "shortdesc": "Sed perspicia unde omnis",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/details/service-02.jpg' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>How To Buildup Buisnes</h3><p> Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p><ul class='check-list mt-30 mb-40'><li><i class='fas fa-check'></i>Business & Consulting Agency</li><li><i class='fas fa-check'></i>Awards Winning Business Comapny</li><li><i class='fas fa-check'></i>Complete Guide To Mechanical</li><li><i class='fas fa-check'></i>Firebase Authentication & Database</li></ul></div></div>",
+        "features":[
+            {
+                "title":"How To Create A Mobile App In Expo And Firebase",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Smashing Podcast Episode With Ben How ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Learning Resources Challenging Workshops ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Micro-Typography: How To Space Kern ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "icon": "fal fa-balance-scale-right",
+        "shadowicon": "assets/img/icons/02.png",
+        "img": "assets/img/feature/02.jpg",
+        "title": "Protection Juridique",
+        "categorie": "personne",
+        "shortdesc": "Sed perspicia unde omnis",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/details/service-02.jpg' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>How To Buildup Buisnes</h3><p> Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p><ul class='check-list mt-30 mb-40'><li><i class='fas fa-check'></i>Business & Consulting Agency</li><li><i class='fas fa-check'></i>Awards Winning Business Comapny</li><li><i class='fas fa-check'></i>Complete Guide To Mechanical</li><li><i class='fas fa-check'></i>Firebase Authentication & Database</li></ul></div></div>",
+        "features":[
+            {
+                "title":"How To Create A Mobile App In Expo And Firebase",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Smashing Podcast Episode With Ben How ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Learning Resources Challenging Workshops ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Micro-Typography: How To Space Kern ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "icon": "fal fa-motorcycle",
+        "shadowicon": "assets/img/icons/03.png",
+        "img": "assets/img/feature/03.jpg",
+        "title": "Assurance Moto",
+        "categorie": "bien",
+        "shortdesc": "Sed perspicia unde omnis",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/details/service-02.jpg' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>How To Buildup Buisnes</h3><p> Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p><ul class='check-list mt-30 mb-40'><li><i class='fas fa-check'></i>Business & Consulting Agency</li><li><i class='fas fa-check'></i>Awards Winning Business Comapny</li><li><i class='fas fa-check'></i>Complete Guide To Mechanical</li><li><i class='fas fa-check'></i>Firebase Authentication & Database</li></ul></div></div>",
+        "features":[
+            {
+                "title":"How To Create A Mobile App In Expo And Firebase",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Smashing Podcast Episode With Ben How ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Learning Resources Challenging Workshops ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Micro-Typography: How To Space Kern ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "icon": "fal fa-car",
+        "shadowicon": "assets/img/icons/04.png",
+        "img": "assets/img/feature/04.jpg",
+        "title": " Assurance Auto",
+        "categorie": "bien",
+        "shortdesc": "Sed perspicia unde omnis",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/details/service-02.jpg' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>How To Buildup Buisnes</h3><p> Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p><ul class='check-list mt-30 mb-40'><li><i class='fas fa-check'></i>Business & Consulting Agency</li><li><i class='fas fa-check'></i>Awards Winning Business Comapny</li><li><i class='fas fa-check'></i>Complete Guide To Mechanical</li><li><i class='fas fa-check'></i>Firebase Authentication & Database</li></ul></div></div>",
+        "features":[
+            {
+                "title":"How To Create A Mobile App In Expo And Firebase",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Smashing Podcast Episode With Ben How ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Learning Resources Challenging Workshops ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Micro-Typography: How To Space Kern ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "icon": "fal fa-paw",
+        "shadowicon": "assets/img/icons/01.png",
+        "img": "assets/img/feature/05.jpg",
+        "title": "Chat et Chien",
+        "categorie": "personne",
+        "shortdesc": "Sed perspicia unde omnis",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/details/service-02.jpg' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>How To Buildup Buisnes</h3><p> Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p><ul class='check-list mt-30 mb-40'><li><i class='fas fa-check'></i>Business & Consulting Agency</li><li><i class='fas fa-check'></i>Awards Winning Business Comapny</li><li><i class='fas fa-check'></i>Complete Guide To Mechanical</li><li><i class='fas fa-check'></i>Firebase Authentication & Database</li></ul></div></div>",
+        "features":[
+            {
+                "title":"How To Create A Mobile App In Expo And Firebase",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Smashing Podcast Episode With Ben How ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Learning Resources Challenging Workshops ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Micro-Typography: How To Space Kern ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "icon": "fal fa-house-damage",
+        "shadowicon": "assets/img/icons/02.png",
+        "img": "assets/img/feature/06.jpg",
+        "title": "Prévoyance",
+        "categorie": "personne",
+        "shortdesc": "Sed perspicia unde omnis",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/details/service-02.jpg' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>How To Buildup Buisnes</h3><p> Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p><ul class='check-list mt-30 mb-40'><li><i class='fas fa-check'></i>Business & Consulting Agency</li><li><i class='fas fa-check'></i>Awards Winning Business Comapny</li><li><i class='fas fa-check'></i>Complete Guide To Mechanical</li><li><i class='fas fa-check'></i>Firebase Authentication & Database</li></ul></div></div>",
+        "features":[
+            {
+                "title":"How To Create A Mobile App In Expo And Firebase",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Smashing Podcast Episode With Ben How ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Learning Resources Challenging Workshops ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Micro-Typography: How To Space Kern ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "icon": "fal fa-house-damage",
+        "shadowicon": "assets/img/icons/02.png",
+        "img": "assets/img/feature/06.jpg",
+        "title": "Électricité et Gaz",
+        "categorie": "energie",
+        "shortdesc": "Sed perspicia unde omnis",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/details/service-02.jpg' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>How To Buildup Buisnes</h3><p> Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p><ul class='check-list mt-30 mb-40'><li><i class='fas fa-check'></i>Business & Consulting Agency</li><li><i class='fas fa-check'></i>Awards Winning Business Comapny</li><li><i class='fas fa-check'></i>Complete Guide To Mechanical</li><li><i class='fas fa-check'></i>Firebase Authentication & Database</li></ul></div></div>",
+        "features":[
+            {
+                "title":"How To Create A Mobile App In Expo And Firebase",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Smashing Podcast Episode With Ben How ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Learning Resources Challenging Workshops ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Micro-Typography: How To Space Kern ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "icon": "fal fa-house-damage",
+        "shadowicon": "assets/img/icons/02.png",
+        "img": "assets/img/feature/06.jpg",
+        "title": "Défiscalisation",
+        "categorie": "credit",
+        "shortdesc": "Sed perspicia unde omnis",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/details/service-02.jpg' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>How To Buildup Buisnes</h3><p> Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p><ul class='check-list mt-30 mb-40'><li><i class='fas fa-check'></i>Business & Consulting Agency</li><li><i class='fas fa-check'></i>Awards Winning Business Comapny</li><li><i class='fas fa-check'></i>Complete Guide To Mechanical</li><li><i class='fas fa-check'></i>Firebase Authentication & Database</li></ul></div></div>",
+        "features":[
+            {
+                "title":"How To Create A Mobile App In Expo And Firebase",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Smashing Podcast Episode With Ben How ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Learning Resources Challenging Workshops ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Micro-Typography: How To Space Kern ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            }
+        ]
+    },{
+        "id": 9,
+        "icon": "fal fa-house-damage",
+        "shadowicon": "assets/img/icons/02.png",
+        "img": "assets/img/feature/06.jpg",
+        "title": " Assurance Emprunteur",
+        "categorie": "credit",
+        "shortdesc": "Sed perspicia unde omnis",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/details/service-02.jpg' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>How To Buildup Buisnes</h3><p> Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p><ul class='check-list mt-30 mb-40'><li><i class='fas fa-check'></i>Business & Consulting Agency</li><li><i class='fas fa-check'></i>Awards Winning Business Comapny</li><li><i class='fas fa-check'></i>Complete Guide To Mechanical</li><li><i class='fas fa-check'></i>Firebase Authentication & Database</li></ul></div></div>",
+        "features":[
+            {
+                "title":"How To Create A Mobile App In Expo And Firebase",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Smashing Podcast Episode With Ben How ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Learning Resources Challenging Workshops ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Micro-Typography: How To Space Kern ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "icon": "fal fa-house-damage",
+        "shadowicon": "assets/img/icons/02.png",
+        "img": "assets/img/feature/06.jpg",
+        "title": "Rachat de crédits",
+        "categorie": "credit",
+        "shortdesc": "Sed perspicia unde omnis",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/details/service-02.jpg' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>How To Buildup Buisnes</h3><p> Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p><ul class='check-list mt-30 mb-40'><li><i class='fas fa-check'></i>Business & Consulting Agency</li><li><i class='fas fa-check'></i>Awards Winning Business Comapny</li><li><i class='fas fa-check'></i>Complete Guide To Mechanical</li><li><i class='fas fa-check'></i>Firebase Authentication & Database</li></ul></div></div>",
+        "features":[
+            {
+                "title":"How To Create A Mobile App In Expo And Firebase",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Smashing Podcast Episode With Ben How ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Learning Resources Challenging Workshops ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Micro-Typography: How To Space Kern ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            }
+        ]
+    }
+
+]

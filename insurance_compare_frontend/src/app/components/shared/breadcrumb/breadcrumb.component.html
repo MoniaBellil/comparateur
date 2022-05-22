@@ -1,0 +1,23 @@
+<breadcrumb #parent>
+    <section class="breadcrumb-section bg-img-c" style="background-image: url(assets/img/breadcrumb.jpg);">
+        <div class="container">
+            <div class="breadcrumb-text">
+                <ng-template ngFor let-route [ngForOf]="parent.breadcrumbs">
+                    <h1 class="page-title">{{ route.displayName }}</h1>
+                    <ul>
+                        <li><a routerLink="/">Home</a></li>
+                        <li *ngIf="!route.terminal">
+                            <a href="" [routerLink]="[route.url]">{{ route.displayName }}</a>
+                        </li>
+                        <li *ngIf="route.terminal">{{ route.displayName }}</li>
+                    </ul>
+                </ng-template>
+            </div>
+        </div>
+        <div class="breadcrumb-shapes">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+    </section>
+</breadcrumb>

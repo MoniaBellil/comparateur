@@ -1,0 +1,224 @@
+<header class="header-two sticky-header sticky-on" id="can-sticky">
+    <!-- Header Menu  -->
+    <div class="header-nav sticky-nav">
+        <div class="container-fluid container-1600">
+            <div class="nav-container" [ngClass]="visible ? '' : 'breakpoint-on'" (window:resize)="detectHeader()">
+                <!-- Site Logo -->
+                <div class="site-logo">
+                    <a routerLink="/"><img class="small-icon big-icon" src="assets/img/logo-2-w.png" alt="logo"></a>
+                </div>
+
+                <!-- Main Menu -->
+                <div class="nav-menu d-lg-flex align-items-center" [ngClass]="navmethod ? '' : 'menu-on'">
+
+                    <!-- Navbar Close Icon -->
+                    <div class="navbar-close">
+                        <div class="cross-wrap" (click)="toggleNav()"><span></span><span></span></div>
+                    </div>
+
+                    <div>
+                        <div style="margin-top: 0px !important;" class="wrapper">
+                            <ul class="nav-links">
+                                <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                                <li><a href="/">Accueil</a></li>
+                                <!--
+                                <li><a href="/login">Admin</a></li>
+                                -->
+                                <li>
+                                    <a href="#" class="desktop-item">Services</a>
+                                    <label for="showMega" class="mobile-item">Mega Menu</label>
+                                    <div class="mega-box">
+                                        <div class="content">
+                                            <div class="row">
+                                                <img src="assets/img/banner/02.jpg" alt="">
+                                            </div>
+                                            <div class="row">
+                                                <header>Services</header>       
+                                                <ul class="mega-links">
+                                                    <li style="margin-bottom: -50px;" (mouseenter)="mouseEnter('bien') "
+                                                        (mouseleave)="mouseLeave('bien')">
+                                                        <a style="color: #0d0d27;"> <img style="max-width: 25%;" src="assets/img/team/20.png"
+                                                                alt=""> Assurance de Bien </a>
+                                                    </li><br>
+                                                    <li style="margin-bottom: -50px;"
+                                                        (mouseenter)="mouseEnter('personnes') "
+                                                        (mouseleave)="mouseLeave('personnes')">
+                                                        <a style="color: #0d0d27;"> <img style="max-width: 25%;" src="assets/img/team/21.png"
+                                                                alt=""> Assurance de personnes</a>
+                                                    </li><br>
+                                                    <li style="margin-bottom: -50px;"
+                                                    routerLink="/energie"
+                                                        (mouseenter)="mouseEnter('clear') "
+                                                        (mouseleave)="mouseLeave('clear')">
+                                                        <a style="color: #0d0d27;"> <img style="max-width: 25%;" src="assets/img/team/22.png"
+                                                                alt=""> Électricité et Gaz </a>
+                                                    </li><br>
+
+                                                    <li style="margin-bottom: -50px;" routerLink="/rachat">
+                                                        <a (mouseenter)="mouseEnter('clear') "
+                                                        (mouseleave)="mouseLeave('clear')" style="color: #0d0d27;"> <img style="max-width: 25%;"
+                                                                src="assets/img/team/19.png" alt=""> Rachat de
+                                                            crédits</a>
+                                                    </li><br>
+                                                    <li  (mouseenter)="mouseEnter('clear') "
+                                                    (mouseleave)="mouseLeave('clear')" style="margin-bottom: -50px;" routerLink="/défiscalisation">
+                                                        <a style="color: #0d0d27;"> <img style="max-width: 25%;"
+                                                                src="assets/img/team/16.png"
+                                                                alt="">Défiscalisation</a>
+                                                    </li><br>
+                                                    <li (mouseenter)="mouseEnter('clear') "
+                                                    (mouseleave)="mouseLeave('clear')" style="margin-bottom: -50px;" routerLink="/emprunteur">
+                                                        <a style="color: #0d0d27;"> <img style="max-width: 25%;"
+                                                                src="assets/img/team/17.png" alt=""> Assurance
+                                                            Emprunteur</a>
+                                                    </li><br>
+                                                </ul>
+
+
+                                            </div>
+                                            <div class="row">
+                                                <header>Pour vous aider</header>
+                                                <ul class="mega-links">
+                                                    <h3
+                                                        style=" margin-top: 20px; margin-left: 10px; font-family: 'Source Sans Pro';">
+                                                        vous pouvez choisir l'un de nos services d'assurance, remplir
+                                                        les informations nécessaires et voir la magie opérer.</h3>
+                                                    <div *ngIf="this.bien == true">
+                                                        <li style="margin-bottom: -50px;" routerLink="/auto-insurance">
+                                                            <a style="color: #0d0d27;">  <img style="max-width: 25%;"
+                                                                    src="assets/img/team/05.jpg" alt=""> Assurance
+                                                                Auto</a>
+                                                        </li><br>
+                                                        <li style="margin-bottom: -50px;" routerLink="/moto">
+                                                            <a style="color: #0d0d27;"> <img style="max-width: 25%;"
+                                                                    src="assets/img/team/03.jpg" alt=""> Assurance
+                                                                Moto</a>
+                                                        </li><br>
+
+                                                    </div>
+
+
+                                                    <div *ngIf="this.personnes == true">
+                                                        <li style="margin-bottom: -50px;"
+                                                            routerLink="/mutual-insurance">
+                                                            <a style="color: #0d0d27;"> <img style="max-width: 25%;"
+                                                                    src="assets/img/team/01.jpg" alt=""> Assurance
+                                                                    Santé</a>
+                                                        </li><br>
+                                                        <li style="margin-bottom: -50px;"
+                                                            routerLink="/legal-protection-insurance">
+                                                            <a style="color: #0d0d27;"> <img style="max-width: 25%;"
+                                                                    src="assets/img/team/06.jpg" alt=""> Protection
+                                                                juridique</a>
+                                                        </li><br>
+                                                        <li style="margin-bottom: -50px;"
+                                                            routerLink="/provident-insurance">
+                                                            <a style="color: #0d0d27;"> <img style="max-width: 25%;"
+                                                                    src="assets/img/team/02.jpg" alt=""> Prévoyance</a>
+                                                        </li><br>
+                                                        <li style="margin-bottom: -50px;"
+                                                            routerLink="/animal-insurance">
+                                                            <a style="color: #0d0d27;"> <img style="max-width: 25%;"
+                                                                    src="assets/img/team/04.jpg" alt=""> Chat et
+                                                                Chien</a>
+                                                        </li><br>
+                                                    </div>
+                                                    <div *ngIf="this.energie == true">
+                                                        <li style="margin-bottom: -50px;" routerLink="/energie">
+                                                            <a style="color: #0d0d27;">  <img style="max-width: 25%;"
+                                                                    src="assets/img/team/15.png" alt=""> Électricité et
+                                                                Gaz </a>
+                                                        </li><br>
+
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                       
+                                            <div class="row">
+                                                <header>Plus d'informations</header>
+                                                <ul class="mega-links">
+                                                    <h3
+                                                        style="margin-top: 20px; margin-left: 10px; font-family: 'Source Sans Pro';">
+                                                        voulez avoir plus d'informations? Ou même avez-vous d'autres
+                                                        questions ou commentaires ? N'hésitez pas à nous contacter</h3>
+                                                    <li routerLink="/contact" data-animation="fadeInRight"
+                                                        data-delay="1.4s">
+                                                        <a class="main-btn main-btn-2">Contacter Nous</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="/contact">Contacter Nous</a></li>
+                                <li *ngIf='this.admin == true' (click)='deconnection()' ><a>Déconnecter</a></li>
+
+                            </ul>
+                            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+                        </div>
+                    </div>
+                    <div class="menu-items show hide">
+                        <ul>
+                            <li class="menu-item" [ngClass]="item.child == true ? 'has-submemu' : ''"
+                                *ngFor="let item of navigation">
+                                <a href="javascript:void(0)" (click)="trigger(item)"
+                                    *ngIf="item.child">{{item.linkText}}</a>
+                                <a routerLink="{{item.link}}" *ngIf="!item.child">{{item.linkText}}</a>
+                                <div style="height: 300px; width: 500px; border-radius: 20px;" class="submenu"
+                                    *ngIf="item.child" [ngClass]="item.open ? 'd-block' : ''">
+
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                            <li class="menu-item" [ngClass]="item.child == true ? 'has-submemu' : ''"
+                                *ngFor="let item of item.submenu">
+                                <a href="javascript:void(0)" (click)="trigger(item)"
+                                    *ngIf="item.child">{{item.linkText}}</a>
+                                <a routerLink="{{item.link}}" *ngIf="!item.child">{{item.linkText}}</a>
+                                <ul class="submenu" *ngIf="item.child" [ngClass]="item.open ? 'd-block' : ''">
+                                    <li class="menu-item" *ngFor="let item of item.submenu">
+                                        <a routerLink="{{item.link}}">{{item.linkText}}</a>
+                                    </li>
+                                </ul>
+                            </li>
+                    </div>
+                </div>
+            </div>
+            </li>
+            </ul>
+
+            <ul style="display: block;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+            color: #fff !important;
+            line-height: 45px !important;
+            font-size: 17px;
+            margin: 0 0;
+            padding: 0px 15px;
+            font-size: large;" *ngIf='this.admin == true' (click)='deconnection()' ><a>Déconnection</a></ul>
+            <a style="position: absolute;
+            top: 150%;
+            left: 63px;" routerLink="/"><img class="small-icon big-icon" src="assets/img/logo-2-w.png" alt="logo"></a>
+        </div>
+        <!-- Pushed Item -->
+        <div class="nav-pushed-item"></div>
+    </div>
+
+    <!-- Navbar Extra  -->
+    <div class="navbar-extra d-flex align-items-center">
+        <!-- off canvas menu toggler-->
+        <!-- Navbar Toggler -->
+        <div class="navbar-toggler" [ngClass]="navmethod ? '' : 'active'" (click)="toggleNav()">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</header>
+<!-- Canvas -->
+<div class="offcanvas-wrapper" [ngClass]="canvasmethod ? '' : 'show-offcanvas'">
+    <div class="offcanvas-overly" [ngClass]="canvasmethod ? '' : 'show-overly'" (click)="toggleCanvas()"></div>
+    <div class="offcanvas-widget">
+        <a href="javascript:void(0)" class="offcanvas-close" (click)="toggleCanvas()"><i class="fal fa-times"></i></a>
+        <app-canvas></app-canvas>
+    </div>
+</div>

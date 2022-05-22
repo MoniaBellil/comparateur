@@ -1,0 +1,121 @@
+<section class="service-section shape-style-two service-line-shape section-gap grey-bg">
+    <div style="height: 150px; overflow: hidden;">
+        <svg viewBox="0 0 500 200" preserveAspectRatio="none" style="height: 700px; width: 100%;">
+            <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z"
+                style="stroke: none;fill: #cb218d27;"></path>
+        </svg>
+    </div>
+    <div class="container">
+        <!-- Section Title -->
+
+
+        <div class="section-title text-center both-border mb-50">
+            <span style="color: #0b0d58;" class="title">Nous fournissons <span style="font-weight: 500;"> Le plus
+             exclusif </span></span>
+            <br>
+            <span class="title">Service d'assurance</span>
+        </div>
+        <!-- Services Boxes -->
+
+        <div class="section-title text-center both-border mb-50">
+            <span class="title-tag">Catégories</span>
+        </div>
+
+        <div class="row service-boxes justify-content-center">
+            <div class="col-lg-3 col-sm-6 col-8">
+                <div   routerLink="/energie"  id="tv1"  class="service-box-two text-center">
+                    <div class="icon">
+                        <img style="max-width: 50%;height: 100px;" src="assets/img/team/22.png" alt="">
+                    </div>
+                    <h3><a style="color: #071664; font-size: large;">Électricité et Gaz</a></h3>
+                    <a   style="background-color: #202267; "  class="service-link">
+                        <i class="fas fa-chevron-down"></i> </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 col-8">
+                <div   routerLink="/rachat"  id="tv1"  class="service-box-two text-center">
+                    <div class="icon">
+                        <img style="max-width: 50%;height: 100px;" src = "assets/img/team/19.png" alt="">
+                    </div>
+                    <h3><a style="color: #071664; font-size: large;">Rachat de
+                        crédits </a></h3>
+                    <a   style="background-color: #202267; "   class="service-link">
+                        <i class="fas fa-chevron-down"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-8">
+                <div   routerLink="/défiscalisation"  id="tv1"  class="service-box-two text-center">
+                    <div class="icon">
+                        <img style="max-width: 50%;height: 100px;" src="assets/img/team/16.png" alt="">
+                    </div>
+                    <h3><a  style="color: #071664; font-size: large;">Défiscalisation</a></h3>
+                    <a   style="background-color: #202267; "   class="service-link">
+                        <i class="fas fa-chevron-down"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 col-8">
+                <div   routerLink="/emprunteur"  id="tv1"  class="service-box-two text-center">
+                    <div class="icon">
+                        <img style="max-width: 50%;height: 100px;" src="assets/img/team/17.png" alt="">
+                    </div>
+                    <h3><a  style="color: #071664; font-size: large;">Assurance
+                        Emprunteur</a></h3>
+                    <a   style="background-color: #202267; "   class="service-link">
+                    <i class="fas fa-chevron-down"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-8">
+                <div   (click)="changeCategorie3()" id="tv1"  class="service-box-two text-center">
+                    <div class="icon">
+                        <img style="max-width: 50%;height: 100px;" src="assets/img/team/21.png" alt="">
+                    </div>
+                    <h3><a style="color: #071664; font-size: large;">Assurance de personnes</a></h3>
+                    <a  style="background-color: #202267; "  class="service-link">
+                        <i class="fas fa-chevron-down"></i></a>
+                </div>
+            </div>
+
+            <div (click)="changeCategorie2()" class="col-lg-3 col-sm-6 col-8">
+                <div  id="tv1"  class="service-box-two text-center">
+                    <div class="icon">
+                        <img style="max-width: 50%;height: 100px;" src="assets/img/team/20.png" alt="">
+                    </div>
+                    <h3><a style="color: #071664; font-size: large;">Assurance de Bien </a></h3>
+                    <a   style="background-color: #202267; "   class="service-link">
+                        <i class="fas fa-chevron-down"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="service-section shape-style-two service-line-shape section-gap grey-bg">
+    <div class="container">
+        <div *ngIf='this.clicked == true' class="section-title text-center both-border mb-50">
+            <span class="title-tag">Services</span>
+        </div>
+        <!-- Section Title -->
+        <div class="section-title text-center both-border mb-50">
+        <div class="row service-boxes justify-content-center">
+        <div [ngStyle]="{'display' : item.categorie == this.categorie ? 'block' : 'none' }"
+                class="col-lg-3 col-sm-6 col-8" *ngFor="let item of service; let i = index">
+                <div id="tv1" routerLink="{{path[i]}}" class="service-box-two text-center">
+                    <div class="icon">
+                        <img style="max-width: 50%;height: 100px;" [src]="img[i]" alt="">
+                    </div>
+                    <h3><a style="color: #071664; font-size: large;"routerLink="{{path[i]}}">{{item.title}}</a></h3>
+                    <a routerLink={{path[i]}} class="service-link">
+                        {{test(path[i])}}
+                        <i class="fal fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+</section>

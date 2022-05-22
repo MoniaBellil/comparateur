@@ -1,0 +1,17 @@
+<section class="fact-section-two">
+    <div class="container">
+        <div class="fact-two-inner">
+            <div class="fact-boxes row justify-content-between align-items-center">
+                <div class="col-lg-3 col-6" *ngFor="let item of counter">
+                    <div class="fact-box fact-box-two text-center mb-40">
+                        <div class="icon">
+                            <i [class]="item.icon"></i>
+                        </div>
+                        <h2 class="counter">{{item.value | number:'1.0-0'}}</h2>
+                        <p class="title">{{item.title}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

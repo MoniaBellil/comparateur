@@ -1,0 +1,166 @@
+
+    <div id="preloader" *ngIf="isLoading">
+        <img style="    max-width: 310px;
+        max-height: 320px;
+        margin-top: 150px;" src="assets/img/illustration/wait.gif" /> 
+      <p style="position: absolute;
+      top: 60%;
+      font-family: 'Source Sans Pro';
+      font-size: revert;
+      font-weight: bold;"> Veuillez patienter, nous recherchons les meilleures offres pour Vous </p>   
+  </div> 
+  <app-fixed-header *ngIf="!isLoading"  ></app-fixed-header>  
+  <div *ngIf="!isLoading"  style="
+  text-align: center; margin-top: 50px; margin-bottom: 15%;" >
+<div class="illustration-img text-center">
+  <img  class="small-image1 large-image1" src="assets/img/illustration/defisc.png" alt="img">
+</div> 
+
+<div style="height: 150px; overflow: hidden;">
+<svg viewBox="0 0 500 200" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+  <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" style="stroke: none;fill: #cb218d27;"></path>
+</svg>
+</div>
+  <mat-vertical-stepper *ngIf="!isLoading" class="stepper" [linear]="isLinear" #stepper>
+    <mat-step [stepControl]="firstFormGroup">
+      <form   class="left" [formGroup]="firstFormGroup">
+        <ng-template matStepLabel>Informations génerales
+        </ng-template>
+        <br>
+        <ng-template matStepLabel></ng-template>
+        <mat-form-field appearance="outline" style="margin-right: 10px;">
+          <mat-label>Date de naissance</mat-label>
+          <ng-template matStepLabel>Placeholder label 0</ng-template>
+          <input  matInput [matDatepicker]="picker1"
+            formControlName="birthDate" />
+          <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+          <mat-datepicker #picker1></mat-datepicker>
+          <mat-error>
+            Entrez votre date de naissance !
+         </mat-error>
+        </mat-form-field>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>Situation</mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="situation" placeholder="Situation">
+            <mat-option *ngFor="let situation of situation" [value]="situation">
+              {{situation.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            Entrez votre situation !
+         </mat-error>
+        </mat-form-field>
+        <br />
+        <br />
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label> Nombre enfant</mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="enfant" placeholder="enfant">
+            <mat-option *ngFor="let enfant of Enfant" [value]="enfant">
+              {{enfant.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            Choisir le nombre d'enfant !
+         </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="outline"  style="margin-right: 10px;">
+          <mat-label>code postal</mat-label>
+          <input type="number" matInput placeholder="Code Postal" formControlName="postalCode" required>
+          <mat-error>
+            Entrez votre code postal!
+          </mat-error>
+        </mat-form-field>
+        <br>
+        <br>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>Quelle est votre activité ?</mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="activite" placeholder="votre activité ?">
+            <mat-option *ngFor="let activite of activite" [value]="activite">
+              {{activite.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            Quelle est votre activité ?
+         </mat-error>
+        </mat-form-field>
+        <br>
+        <br>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>Logement</mat-label>
+          <mat-select name="countryReactiveVaraible" formControlName="logement" placeholder="logement">
+            <mat-option *ngFor="let logement of Logement" [value]="logement">
+              {{logement.text}}
+            </mat-option>
+          </mat-select>
+          <mat-error>
+            Entrez le type de votre logement !
+         </mat-error>
+        </mat-form-field>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>Revenus PAR MOIS en Euro</mat-label>
+          <input type="number" matInput placeholder="votre revenus ex:400 €" formControlName="revenus" required>
+          <mat-error>
+            entrez votre revenus
+          </mat-error>
+        </mat-form-field>
+
+        <br/>
+        <div>
+          <ul class="btn-wrap">       
+            <li   data-animation="fadeInRight" data-delay="1.4s">
+              <button    [disabled]="firstFormGroup.invalid"  matStepperNext   class="main-btn main-btn-4">Suivant</button>
+            </li>
+        </ul>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="lastFormGroup">
+      <form class="left" [formGroup]="lastFormGroup">
+        <ng-template matStepLabel>Informations personnelles</ng-template>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>Nom</mat-label>
+          <input type="text" matInput placeholder="votre nom" formControlName="firstname" required>
+          <mat-error>
+            entrez votre nom
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>Prénom</mat-label>
+          <input type="text" matInput placeholder="votre prénom" formControlName="lastname" required>
+          <mat-error>
+            Entrez votre prénom
+          </mat-error>
+        </mat-form-field>
+        <br>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>adresse email</mat-label>
+          <input type="text" matInput placeholder="adresse email" formControlName="email" required>
+          <mat-error>
+            Entrez votre adresse email
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field  appearance="outline" style="margin-right: 10px;">
+          <mat-label>Téléphone</mat-label>
+          <input type="text" matInput placeholder="numéro de téléphone" formControlName="phonenumber" required>
+          <mat-error>
+            entrez votre numéro de téléphone 
+          </mat-error>
+        </mat-form-field>
+        <br>
+        <mat-checkbox style="margin-top: 1%;" formControlName="callMe">autoriser Va-Chercher.com à m'appeler par téléphone</mat-checkbox><br>
+        <br>
+        <ul class="btn-wrap">       
+          <li   data-animation="fadeInLeft" data-delay="1.2s">
+              <button   [disabled]="lastFormGroup.invalid" matStepperNext (click)="submit()"  class="main-btn main-btn-4">Chercher</button>
+          </li>
+          <br>
+          <li   data-animation="fadeInRight" data-delay="1.4s">
+            <button  matStepperPrevious class="main-btn main-btn-2">Retour</button>
+        </li>
+      </ul>
+      </form>
+    </mat-step>
+  </mat-vertical-stepper>
+  </div>   
+  
+  <app-footer  *ngIf="!isLoading"  [layout]=""></app-footer>

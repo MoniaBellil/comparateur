@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "name":"La mutuelle santé",
+        "comment": "La mutuelle santé, appelée aussi complémentarité santé, permet d’assurer le remboursement des dépenses de santé qui ne sont pas prises en charge par la sécurité sociale. Nos contrats proposent plusieurs formules adaptées à tous types de besoins : remboursement des frais optiques et dentaires, assurance  hospitalisation ainsi que toutes les garanties spéciales. Notre comparatif d’assurance se chargera de vous trouver en quelques minutes une mutuelle  santé sur-mesure.",
+        "author": [
+            1
+        ]
+    },
+    {
+        "id": 2,
+        "name":"L’assurance de votre logement",
+        "comment": "Les meilleures offres d’assurance logement sont disponibles sur notre site. Quelle que soit votre situation (propriétaire ou locataire) ou votre type de logement (maison, villa, appartement, duplex, triplex ou studio...), nous nous engageons à vous trouver l’assurance logement la plus adaptée à votre foyer.",
+        "author": [
+            2
+        ]
+    },
+    {
+        "id": 3,
+        "name":"Assurances Moto",
+        "comment": "Que vous disposiez d’une grande routière, d’un scooter ou d’une légère motocyclette, votre moto doit, au même titre que votre voiture, être souscrite à un contrat d’assurance moto. Nous ferons le tri parmi les différentes offres de notre réseau de partenaires pour vous proposer les contrats les plus adaptés à votre besoin.",
+        "author": [
+            3
+        ]
+    },
+
+    {
+        "id": 5,
+        "name":"Assurances Auto",
+        "comment": "L’acquisition d’une voiture impose obligatoirement à son propriétaire de lui souscrire une assurance auto. Grâce à notre savoir-faire et à l’expertise de nos partenaires, nous vous offrons la possibilité de bénéficier d’une formule proposant les garanties de votre choix, tout en faisant des économies pouvant atteindre 300€ par an.",
+        "author": [
+            5
+        ]
+    },
+
+    {
+        "id": 4,
+        "name":"Assurance chat et chien",
+        "comment": "Votre animal de compagnie mérite une protection à la hauteur de l’amour que vous lui portez. Notre rôle est de vous proposer l’assurance chat ou l’assurance chien qui permettra à votre animal domestique de profiter des meilleurs soins tout en vous garantissant le remboursement total des frais vétérinaires.",
+        "author": [
+            4
+        ]
+    },
+
+    {
+        "id": 6,
+        "name":"Contrat électricité et Gaz",
+        "comment": "Grâce à notre comparateur de contrats de gaz et d’électricité, vous pourrez bénéficier de la meilleure offre de services énergétiques et réduire considérablement votre consommation. Notre comparateur prend en compte tous les critères qui nous permettront de vous proposer la formule idéale pour votre besoin.",
+        "author": [
+            6
+        ]
+    },
+    {
+        "id": 7,
+        "name":"Prévoyance",
+        "comment": "Le contrat de prévoyance est une garantie qui vous permet de faire face aux risques d’éventuels imprévus (décès, hospitalisation, perte de salaire...). Plus qu’une simple protection, le contrat offre une tranquillité d’esprit qui permet au souscripteur d’être préparé en cas de difficultés. Vaschercher vous permet de comparer les contrats de prévoyance et de trouver, selon votre besoin, la formule qui convient le plus à votre situation.",
+        "author": [
+            7
+        ]
+    },
+    {
+        "id": 8,
+        "name":"Défiscalisation",
+        "comment": "Le dispositif Pinel vous permet d’investir dans l’immobilier et de profiter d’une réduction d’impôt pouvant aller jusqu’à 63 000 €. Notre rôle est de vous aider à faire le bon choix d’investissement immobilier et de profiter des meilleures conditions de défiscalisation locative.",
+        "author": [
+            8
+        ]
+    }
+,
+{
+    "id": 9,
+    "name":"Protection Juridique ",
+    "comment": "L’assurance de protection juridique vous permet d’être préparé en cas de litige. Le contrat garantit la prise en charge des frais engendrés par la défense des intérêts du souscripteur ainsi que du règlement à l’amiable de son différend. Le contrat intervient dans le cadre d’une procédure juridique engagée par l’assuré ou bien engagée à son encontre.",
+    "author": [
+        9
+    ]
+}
+
+]

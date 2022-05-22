@@ -1,0 +1,33 @@
+<section class="about-section section-gap">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-10">
+                <div class="about-video">
+                    <div class="video-poster-one" style="background-image: url(assets/img/video-bg/poster-1.jpg);">
+                    </div>
+                    <div class="video-poster-two" style="background-image: url(assets/img/video-bg/poster-2.jpg);">
+                        <a href="#" class="video-play-icon popup-video">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-10">
+                <div class="about-text-two">
+                    <div class="section-title left-border mb-40">
+                        <span class="title-tag">About Us</span>
+                        <h2 class="title">Professional Business Guidance Agency </h2>
+                    </div>
+                    <p>
+                        Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium, totam raperiaeaque ipsa quae ab illo inventore veritatis et quasi
+                    </p>
+                    <ul class="about-list">
+                        <li *ngFor="let item of list"> <i class="fas fa-check"></i> {{item.text}}</li>
+                    </ul>
+                    <a routerLink="/about" class="main-btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

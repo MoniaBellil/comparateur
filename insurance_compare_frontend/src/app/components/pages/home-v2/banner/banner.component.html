@@ -1,0 +1,17 @@
+<section style="
+height: 48%;
+" class="banner-section banner-section-two">
+    <ngx-slick-carousel #slickModal="slick-carousel" [config]="settings" class="banner-slider" id="bannerSlider">
+        <div ngxSlickItem class="single-banner"  *ngFor="let item of banner">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="banner-content text-center">
+                            <h1 class="test" data-animation="fadeInDown" data-delay="0.8s" [innerHtml]="item.title"></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ngx-slick-carousel>
+</section>

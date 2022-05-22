@@ -1,0 +1,15 @@
+    <div  style="text-align: center; padding-top: 100px;" class="section-title ">
+        <h2 class="title">Plus de 10 partenaires</h2>
+        <p style="font-size: large;" >C'est parce qu'on est indépendant qu'on peut vous trouver les meilleures offres.
+        </p>
+    </div>
+  
+    <ngx-slick-carousel style="padding-bottom: 50px;"  #slickModal="slick-carousel" [config]="settings"
+        class="row align-items-center justify-content-between" id="clientSlider">
+        <div ngxSlickItem class="col" *ngFor="let item of brands">
+            <a href="#" class="client-img d-block text-center">
+                <img [src]="item.img" [alt]="item.title">
+            </a>
+        </div>
+    </ngx-slick-carousel>
+
